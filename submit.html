@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Add a listing, Falconry Directory USA</title>
+  <meta name="description" content="Submit a falconry related listing. Services, products, organizations. United States focused." />
+  <link rel="canonical" href="https://example.com/submit.html" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <script defer src="/assets/js/app.js"></script>
+  <script defer src="/assets/js/submit.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="/" aria-label="Falconry Directory USA Home">
+        <span class="brand-mark" aria-hidden="true">FD</span>
+        <span class="brand-text">Falconry Directory USA</span>
+      </a>
+      <nav class="nav">
+        <a href="/directory.html">Directory</a>
+        <a href="/submit.html" aria-current="page">Add Listing</a>
+        <a href="/blog.html">Guides</a>
+        <a href="/about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container narrow">
+      <div class="page-head">
+        <h1>Add a listing</h1>
+        <p class="lede">Submit a service, product seller, or organization. Listings go through moderation.</p>
+      </div>
+
+      <form id="submitForm" class="form card" novalidate>
+        <h2>Business identity</h2>
+
+        <div class="field-row">
+          <label class="field">
+            <span class="label">Listing name</span>
+            <input name="name" required />
+          </label>
+          <label class="field">
+            <span class="label">Type</span>
+            <select name="type" required>
+              <option value="">Select</option>
+              <option value="service">Service</option>
+              <option value="product">Product</option>
+              <option value="organization">Organization</option>
+            </select>
+          </label>
+        </div>
+
+        <label class="field">
+          <span class="label">Primary category</span>
+          <select name="category" id="categorySelect" required></select>
+        </label>
+
+        <label class="field">
+          <span class="label">Short tagline</span>
+          <input name="tagline" maxlength="120" />
+        </label>
+
+        <h2>Location</h2>
+
+        <div class="field-row">
+          <label class="field">
+            <span class="label">State</span>
+            <select name="state" id="stateSelect" required></select>
+          </label>
+          <label class="field">
+            <span class="label">City</span>
+            <input name="city" />
+          </label>
+        </div>
+
+        <label class="field">
+          <span class="label">Address</span>
+          <input name="address" />
+        </label>
+
+        <label class="field">
+          <span class="label">Service area</span>
+          <input name="serviceArea" placeholder="Example, Statewide, 50 mile radius, Online" />
+        </label>
+
+        <h2>Contact</h2>
+
+        <div class="field-row">
+          <label class="field">
+            <span class="label">Phone</span>
+            <input name="phone" inputmode="tel" />
+          </label>
+          <label class="field">
+            <span class="label">Email</span>
+            <input name="email" type="email" />
+          </label>
+        </div>
+
+        <label class="field">
+          <span class="label">Website</span>
+          <input name="website" type="url" placeholder="https://..." />
+        </label>
+
+        <h2>Credentials</h2>
+
+        <div class="field-row">
+          <label class="field">
+            <span class="label">Permit status text</span>
+            <input name="permitStatus" placeholder="Example, Apprentice permit, State issued" />
+          </label>
+          <label class="field">
+            <span class="label">Years in practice</span>
+            <input name="years" inputmode="numeric" />
+          </label>
+        </div>
+
+        <label class="field">
+          <span class="label">Offerings</span>
+          <textarea name="offerings" rows="4" placeholder="Comma separated. Example, lessons, mentorship, mews builds, telemetry sales"></textarea>
+        </label>
+
+        <h2>Placement</h2>
+
+        <div class="radio-grid">
+          <label class="radio">
+            <input type="radio" name="plan" value="free" checked />
+            <span>
+              <span class="radio-title">Free</span>
+              <span class="fineprint">Basic fields, no badge</span>
+            </span>
+          </label>
+
+          <label class="radio">
+            <input type="radio" name="plan" value="verified" />
+            <span>
+              <span class="radio-title">Verified</span>
+              <span class="fineprint">Badge after proof checks</span>
+            </span>
+          </label>
+
+          <label class="radio">
+            <input type="radio" name="plan" value="featured" />
+            <span>
+              <span class="radio-title">Featured</span>
+              <span class="fineprint">Top placement in category and state</span>
+            </span>
+          </label>
+        </div>
+
+        <div class="actions">
+          <button class="btn" type="submit">Submit</button>
+          <a class="btn btn-ghost" href="/legal/terms.html">Terms</a>
+        </div>
+
+        <p class="fineprint" id="statusMsg" role="status"></p>
+      </form>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <span class="fineprint">© <span id="year"></span> Falconry Directory USA</span>
+    </div>
+  </footer>
+</body>
+</html>
