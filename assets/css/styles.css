@@ -475,6 +475,9 @@ input:focus, select:focus, textarea:focus {
 .toc li { padding: 4px 0; }
 .toc a { color: var(--gold-dark); font-weight: 600; }
 
+/* Article hero image */
+.article-hero { width: 100%; max-height: 360px; object-fit: cover; border-radius: var(--radius-lg); margin: 0 0 24px; }
+
 /* Article sidebar CTA */
 .article-cta {
   background: var(--panel); border: 2px solid var(--gold);
