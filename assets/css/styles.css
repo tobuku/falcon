@@ -88,8 +88,12 @@ ul, ol { margin: 0; }
 }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; }
 .brand:hover { text-decoration: none; }
-.brand-logo { height: 48px; width: 48px; border-radius: 8px; object-fit: cover; }
+.brand-logo {
+  height: 44px; width: auto; border-radius: 6px; object-fit: contain;
+  background: var(--cream); padding: 3px 8px;
+}
 .brand-text { font-weight: 800; font-size: 1.05rem; letter-spacing: .3px; color: #fff; }
+.brand-has-banner .brand-text { display: none; }
 
 /* Mobile menu toggle */
 .nav-toggle {
