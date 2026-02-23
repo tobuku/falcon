@@ -1,0 +1,512 @@
+[
+  {
+    "code": "AL",
+    "name": "Alabama",
+    "slug": "alabama",
+    "intro": "Falconry in Alabama is regulated by the Alabama Department of Conservation and Natural Resources, which oversees all raptor permits in the state. Alabama offers a moderately straightforward permitting process aligned closely with federal standards. Red-tailed hawks and red-shouldered hawks are among the most commonly flown raptors in the state, thriving in Alabama's mix of forests, farmland, and coastal plains.",
+    "agency": "Alabama Department of Conservation and Natural Resources",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Red-shouldered Hawk", "Cooper's Hawk"],
+    "neighbors": ["MS", "TN", "GA", "FL"]
+  },
+  {
+    "code": "AK",
+    "name": "Alaska",
+    "slug": "alaska",
+    "intro": "Falconry in Alaska is managed by the Alaska Department of Fish and Game, which administers raptor capture and possession permits across the state. Alaska's vast wilderness and sparse population create a unique falconry environment with access to northern species rarely encountered elsewhere. Gyrfalcons, the largest true falcon, are native to Alaska and are highly prized among experienced falconers in the state.",
+    "agency": "Alaska Department of Fish and Game",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Gyrfalcon", "Northern Goshawk", "Red-tailed Hawk"],
+    "neighbors": ["HI"]
+  },
+  {
+    "code": "AZ",
+    "name": "Arizona",
+    "slug": "arizona",
+    "intro": "Falconry in Arizona is regulated by the Arizona Game and Fish Department, which maintains a well-established falconry program in the state. Arizona's desert landscapes and diverse terrain support a wide variety of raptor species, making it one of the more popular states for falconry in the Southwest. Harris's hawks, known for their cooperative hunting behavior, are especially popular among Arizona falconers.",
+    "agency": "Arizona Game and Fish Department",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Harris's Hawk", "Red-tailed Hawk", "Prairie Falcon"],
+    "neighbors": ["CA", "NV", "UT", "NM"]
+  },
+  {
+    "code": "AR",
+    "name": "Arkansas",
+    "slug": "arkansas",
+    "intro": "Falconry in Arkansas is overseen by the Arkansas Game and Fish Commission, which handles all raptor permits and regulations for the state. Arkansas provides a favorable environment for falconry with its rolling hills, river valleys, and abundant small game populations. Red-tailed hawks are the most commonly trapped and flown species, with Cooper's hawks also popular for bird hawking in wooded areas.",
+    "agency": "Arkansas Game and Fish Commission",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Cooper's Hawk", "Red-shouldered Hawk"],
+    "neighbors": ["MO", "TN", "MS", "LA"]
+  },
+  {
+    "code": "CA",
+    "name": "California",
+    "slug": "california",
+    "intro": "Falconry in California is regulated by the California Department of Fish and Wildlife, which administers one of the most active falconry programs in the nation. California's diverse ecosystems, from coastal marshes to inland deserts, support a wide range of raptor species and hunting opportunities. The state has a large and engaged falconry community, with red-tailed hawks, Harris's hawks, and peregrine falcons among the most popular species flown.",
+    "agency": "California Department of Fish and Wildlife",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Harris's Hawk", "Peregrine Falcon"],
+    "neighbors": ["OR", "NV", "AZ"]
+  },
+  {
+    "code": "CO",
+    "name": "Colorado",
+    "slug": "colorado",
+    "intro": "Falconry in Colorado is managed by Colorado Parks and Wildlife, which oversees raptor permits and trapping regulations across the state. Colorado's high plains, mountain valleys, and open grasslands provide excellent hunting terrain for a variety of raptor species. Prairie falcons are particularly well-suited to Colorado's landscape, and the state has a strong tradition of longwing falconry alongside red-tailed hawk hawking.",
+    "agency": "Colorado Parks and Wildlife",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Prairie Falcon", "Red-tailed Hawk", "Northern Goshawk"],
+    "neighbors": ["WY", "NE", "KS", "NM"]
+  },
+  {
+    "code": "CT",
+    "name": "Connecticut",
+    "slug": "connecticut",
+    "intro": "Falconry in Connecticut is regulated by the Connecticut Department of Energy and Environmental Protection, which manages raptor permits for the state. Despite its small size, Connecticut offers varied hunting terrain including coastal areas, farmland, and hardwood forests. Red-tailed hawks and Cooper's hawks are the most commonly flown species, with the state's suburban and rural landscapes providing ample small game opportunities.",
+    "agency": "Connecticut Department of Energy and Environmental Protection",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Cooper's Hawk", "American Kestrel"],
+    "neighbors": ["NY", "MA", "RI"]
+  },
+  {
+    "code": "DE",
+    "name": "Delaware",
+    "slug": "delaware",
+    "intro": "Falconry in Delaware is overseen by the Delaware Division of Fish and Wildlife, which administers raptor possession and trapping permits. As one of the smallest states, Delaware still offers productive falconry opportunities along its coastal plains and agricultural areas. Red-tailed hawks are the most popular species among Delaware falconers, with the state's open farmland providing excellent hunting grounds for both broadwing and shortwing hawks.",
+    "agency": "Delaware Division of Fish and Wildlife",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Cooper's Hawk", "Peregrine Falcon"],
+    "neighbors": ["MD", "NJ", "PA"]
+  },
+  {
+    "code": "DC",
+    "name": "District of Columbia",
+    "slug": "district-of-columbia",
+    "intro": "Falconry in the District of Columbia is regulated by the DC Department of Energy and Environment, which handles wildlife permits in the nation's capital. Due to the highly urban environment, falconry opportunities within DC itself are limited, and most DC-licensed falconers hunt in neighboring Maryland and Virginia. Red-tailed hawks and Cooper's hawks are the species most commonly kept by DC falconers.",
+    "agency": "DC Department of Energy and Environment",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Cooper's Hawk", "American Kestrel"],
+    "neighbors": ["MD", "VA"]
+  },
+  {
+    "code": "FL",
+    "name": "Florida",
+    "slug": "florida",
+    "intro": "Falconry in Florida is regulated by the Florida Fish and Wildlife Conservation Commission, which manages raptor permits across the state. Florida's subtropical climate and diverse habitats, from wetlands to pine flatwoods, create year-round hunting opportunities that are unique among eastern states. Red-shouldered hawks are particularly abundant in Florida, and the state also supports a growing community of falconers flying Harris's hawks.",
+    "agency": "Florida Fish and Wildlife Conservation Commission",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-shouldered Hawk", "Harris's Hawk", "Red-tailed Hawk"],
+    "neighbors": ["GA", "AL"]
+  },
+  {
+    "code": "GA",
+    "name": "Georgia",
+    "slug": "georgia",
+    "intro": "Falconry in Georgia is managed by the Georgia Department of Natural Resources, Wildlife Resources Division, which oversees raptor permitting in the state. Georgia's varied terrain, from the Blue Ridge Mountains to the coastal lowlands, supports diverse raptor populations and hunting opportunities. Red-tailed hawks and Cooper's hawks are the most commonly flown species, with Georgia's mix of agricultural and forested land ideal for hawking.",
+    "agency": "Georgia Department of Natural Resources",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Cooper's Hawk", "Red-shouldered Hawk"],
+    "neighbors": ["TN", "NC", "SC", "FL"]
+  },
+  {
+    "code": "HI",
+    "name": "Hawaii",
+    "slug": "hawaii",
+    "intro": "Falconry in Hawaii is regulated by the Hawaii Department of Land and Natural Resources, which manages wildlife permits for the islands. Hawaii's isolated island ecosystem and strict biosecurity regulations create a highly unique regulatory environment for falconry, and the practice is very limited in the state. The Hawaiian hawk, or io, is an endangered native species and is not available for falconry; most Hawaii falconers work with non-native species.",
+    "agency": "Hawaii Department of Land and Natural Resources",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Harris's Hawk", "Peregrine Falcon"],
+    "neighbors": ["AK"]
+  },
+  {
+    "code": "ID",
+    "name": "Idaho",
+    "slug": "idaho",
+    "intro": "Falconry in Idaho is overseen by the Idaho Department of Fish and Game, which administers raptor capture and possession permits. Idaho's rugged mountains, expansive sagebrush steppe, and river canyons provide outstanding habitat for both raptors and their quarry. Prairie falcons and northern goshawks are especially popular among Idaho falconers, reflecting the state's wild, open landscape.",
+    "agency": "Idaho Department of Fish and Game",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Prairie Falcon", "Northern Goshawk", "Red-tailed Hawk"],
+    "neighbors": ["MT", "WY", "UT", "WA"]
+  },
+  {
+    "code": "IL",
+    "name": "Illinois",
+    "slug": "illinois",
+    "intro": "Falconry in Illinois is regulated by the Illinois Department of Natural Resources, which manages raptor permits throughout the state. Illinois's flat agricultural landscape and scattered woodlands provide productive hunting grounds, particularly for falconers flying red-tailed hawks on rabbits and squirrels. The state has an active falconry community centered in both the Chicago suburbs and the rural central and southern portions of the state.",
+    "agency": "Illinois Department of Natural Resources",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Cooper's Hawk", "Harris's Hawk"],
+    "neighbors": ["WI", "IN", "MO", "IA"]
+  },
+  {
+    "code": "IN",
+    "name": "Indiana",
+    "slug": "indiana",
+    "intro": "Falconry in Indiana is managed by the Indiana Department of Natural Resources, Division of Fish and Wildlife, which handles all raptor permitting. Indiana's mix of farmland, forests, and suburban edges provides consistent hunting opportunities throughout the fall and winter seasons. Red-tailed hawks are by far the most popular falconry bird in the state, with the open agricultural terrain ideal for broadwing hawking.",
+    "agency": "Indiana Department of Natural Resources",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Cooper's Hawk", "American Kestrel"],
+    "neighbors": ["MI", "OH", "KY", "IL"]
+  },
+  {
+    "code": "IA",
+    "name": "Iowa",
+    "slug": "iowa",
+    "intro": "Falconry in Iowa is regulated by the Iowa Department of Natural Resources, which oversees raptor trapping and possession permits. Iowa's extensive agricultural landscape, interspersed with river corridors and grasslands, creates excellent habitat for cottontail rabbits and other quarry species. Red-tailed hawks are the backbone of Iowa falconry, with the state's open terrain well-suited to the classic style of broadwing hawking.",
+    "agency": "Iowa Department of Natural Resources",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Cooper's Hawk", "Harris's Hawk"],
+    "neighbors": ["MN", "WI", "IL", "MO"]
+  },
+  {
+    "code": "KS",
+    "name": "Kansas",
+    "slug": "kansas",
+    "intro": "Falconry in Kansas is overseen by the Kansas Department of Wildlife and Parks, which administers raptor permits for the state. Kansas's vast prairies and grasslands provide exceptional habitat for both raptors and upland game birds, making it a destination for longwing falconry. Prairie falcons and red-tailed hawks thrive in the state's open landscape, and Kansas falconers enjoy some of the best rabbit and pheasant hawking in the country.",
+    "agency": "Kansas Department of Wildlife and Parks",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Prairie Falcon", "Harris's Hawk"],
+    "neighbors": ["NE", "MO", "OK", "CO"]
+  },
+  {
+    "code": "KY",
+    "name": "Kentucky",
+    "slug": "kentucky",
+    "intro": "Falconry in Kentucky is regulated by the Kentucky Department of Fish and Wildlife Resources, which manages all raptor permits in the state. Kentucky's rolling hills, Appalachian foothills, and fertile farmland provide diverse hunting terrain for falconers. Red-tailed hawks are the most popular species, with the state's abundant rabbit and squirrel populations supporting a healthy falconry community.",
+    "agency": "Kentucky Department of Fish and Wildlife Resources",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Cooper's Hawk", "Red-shouldered Hawk"],
+    "neighbors": ["IN", "OH", "WV", "TN"]
+  },
+  {
+    "code": "LA",
+    "name": "Louisiana",
+    "slug": "louisiana",
+    "intro": "Falconry in Louisiana is managed by the Louisiana Department of Wildlife and Fisheries, which handles raptor permitting across the state. Louisiana's bayous, marshes, and coastal prairies create a distinctive falconry environment, with abundant waterfowl and upland game. Red-tailed hawks and Harris's hawks are popular choices, and the state's mild winters allow for an extended hunting season compared to northern states.",
+    "agency": "Louisiana Department of Wildlife and Fisheries",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Harris's Hawk", "Peregrine Falcon"],
+    "neighbors": ["TX", "AR", "MS"]
+  },
+  {
+    "code": "ME",
+    "name": "Maine",
+    "slug": "maine",
+    "intro": "Falconry in Maine is regulated by the Maine Department of Inland Fisheries and Wildlife, which oversees raptor permits in the state. Maine's dense northern forests, rugged coastline, and rural character provide a challenging but rewarding environment for falconry. Northern goshawks are well-suited to Maine's wooded terrain, and red-tailed hawks remain the most commonly flown species among the state's falconers.",
+    "agency": "Maine Department of Inland Fisheries and Wildlife",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Northern Goshawk", "Cooper's Hawk"],
+    "neighbors": ["NH", "VT"]
+  },
+  {
+    "code": "MD",
+    "name": "Maryland",
+    "slug": "maryland",
+    "intro": "Falconry in Maryland is overseen by the Maryland Department of Natural Resources, which administers raptor capture and possession permits. Maryland's location along the Atlantic Flyway, combined with its mix of coastal plains, piedmont, and Appalachian terrain, provides diverse falconry opportunities. Red-tailed hawks and Cooper's hawks are commonly flown, and the state's proximity to the Chesapeake Bay offers unique waterfowl hawking possibilities.",
+    "agency": "Maryland Department of Natural Resources",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Cooper's Hawk", "Peregrine Falcon"],
+    "neighbors": ["PA", "DE", "VA", "WV"]
+  },
+  {
+    "code": "MA",
+    "name": "Massachusetts",
+    "slug": "massachusetts",
+    "intro": "Falconry in Massachusetts is regulated by the Massachusetts Division of Fisheries and Wildlife, which manages raptor permits for the state. Massachusetts has a long falconry tradition and an active community of practitioners across the state. Red-tailed hawks and Cooper's hawks are the most commonly flown species, with the state's mix of suburban edges, farmland, and coastal terrain providing varied hunting opportunities.",
+    "agency": "Massachusetts Division of Fisheries and Wildlife",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Cooper's Hawk", "Harris's Hawk"],
+    "neighbors": ["NH", "VT", "NY", "CT"]
+  },
+  {
+    "code": "MI",
+    "name": "Michigan",
+    "slug": "michigan",
+    "intro": "Falconry in Michigan is managed by the Michigan Department of Natural Resources, which handles raptor permitting across the state. Michigan's two peninsulas offer diverse habitats, from Great Lakes shorelines to northern hardwood forests and southern agricultural plains. Red-tailed hawks are the most popular falconry bird in Michigan, with the state's abundant cottontail rabbit population providing consistent quarry throughout the hunting season.",
+    "agency": "Michigan Department of Natural Resources",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Cooper's Hawk", "Northern Goshawk"],
+    "neighbors": ["OH", "IN", "WI"]
+  },
+  {
+    "code": "MN",
+    "name": "Minnesota",
+    "slug": "minnesota",
+    "intro": "Falconry in Minnesota is regulated by the Minnesota Department of Natural Resources, which oversees raptor permits in the state. Minnesota's prairie grasslands, northern forests, and numerous wetlands support healthy populations of both raptors and game species. Red-tailed hawks dominate the falconry scene, though northern goshawks are also prized by experienced falconers who hunt the state's dense boreal forests.",
+    "agency": "Minnesota Department of Natural Resources",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Northern Goshawk", "Cooper's Hawk"],
+    "neighbors": ["WI", "IA", "SD", "ND"]
+  },
+  {
+    "code": "MS",
+    "name": "Mississippi",
+    "slug": "mississippi",
+    "intro": "Falconry in Mississippi is overseen by the Mississippi Department of Wildlife, Fisheries, and Parks, which administers raptor permits for the state. Mississippi's warm climate, extensive pine forests, and fertile Delta farmland provide year-round habitat for a variety of raptor species. Red-tailed hawks and red-shouldered hawks are commonly flown, with the state's long hunting season and mild winters attractive to falconers.",
+    "agency": "Mississippi Department of Wildlife, Fisheries, and Parks",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Red-shouldered Hawk", "Cooper's Hawk"],
+    "neighbors": ["TN", "AL", "LA", "AR"]
+  },
+  {
+    "code": "MO",
+    "name": "Missouri",
+    "slug": "missouri",
+    "intro": "Falconry in Missouri is regulated by the Missouri Department of Conservation, which manages raptor capture and possession permits. Missouri's central location and diverse geography, from the Ozark Plateau to the Missouri River floodplains, provide excellent hunting terrain for falconers. Red-tailed hawks are the most widely flown species, and the state's robust cottontail and squirrel populations make it a productive state for hawking.",
+    "agency": "Missouri Department of Conservation",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Cooper's Hawk", "Harris's Hawk"],
+    "neighbors": ["IA", "IL", "KY", "AR"]
+  },
+  {
+    "code": "MT",
+    "name": "Montana",
+    "slug": "montana",
+    "intro": "Falconry in Montana is managed by Montana Fish, Wildlife and Parks, which oversees raptor permitting across the state. Montana's sweeping prairies, mountain ranges, and river valleys provide some of the finest raptor habitat in North America. Prairie falcons and northern goshawks are especially popular, and Montana's wide-open spaces make it an ideal location for longwing falconry on upland game birds.",
+    "agency": "Montana Fish, Wildlife and Parks",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Prairie Falcon", "Northern Goshawk", "Red-tailed Hawk"],
+    "neighbors": ["ND", "SD", "WY", "ID"]
+  },
+  {
+    "code": "NE",
+    "name": "Nebraska",
+    "slug": "nebraska",
+    "intro": "Falconry in Nebraska is regulated by the Nebraska Game and Parks Commission, which administers raptor permits throughout the state. Nebraska's central Great Plains location provides vast open terrain ideal for falconry, with abundant populations of rabbits, pheasants, and prairie grouse. Red-tailed hawks and prairie falcons are well-suited to Nebraska's agricultural and grassland landscape, and the state has a dedicated falconry community.",
+    "agency": "Nebraska Game and Parks Commission",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Prairie Falcon", "Harris's Hawk"],
+    "neighbors": ["SD", "IA", "MO", "KS"]
+  },
+  {
+    "code": "NV",
+    "name": "Nevada",
+    "slug": "nevada",
+    "intro": "Falconry in Nevada is overseen by the Nevada Department of Wildlife, which manages raptor permits for the state. Nevada's vast Great Basin desert, mountain ranges, and sagebrush steppe create a distinctive environment for falconry with wide-open hunting terrain. Prairie falcons and red-tailed hawks are popular choices, and the state's sparse population means falconers often have access to expansive, undisturbed hunting grounds.",
+    "agency": "Nevada Department of Wildlife",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Prairie Falcon", "Red-tailed Hawk", "Harris's Hawk"],
+    "neighbors": ["CA", "OR", "ID", "UT"]
+  },
+  {
+    "code": "NH",
+    "name": "New Hampshire",
+    "slug": "new-hampshire",
+    "intro": "Falconry in New Hampshire is regulated by the New Hampshire Fish and Game Department, which oversees raptor permits in the state. New Hampshire's forested mountains, river valleys, and rural farmland provide a varied landscape for falconry pursuits. Red-tailed hawks and Cooper's hawks are the most commonly flown species, with the state's dense woodland cover also making it suitable territory for goshawk falconry.",
+    "agency": "New Hampshire Fish and Game Department",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Cooper's Hawk", "Northern Goshawk"],
+    "neighbors": ["VT", "ME", "MA"]
+  },
+  {
+    "code": "NJ",
+    "name": "New Jersey",
+    "slug": "new-jersey",
+    "intro": "Falconry in New Jersey is managed by the New Jersey Division of Fish and Wildlife, which administers raptor permits for the state. Despite being one of the most densely populated states, New Jersey offers surprisingly diverse falconry opportunities across its Pine Barrens, coastal marshes, and northern highlands. Red-tailed hawks and Cooper's hawks are popular, and the state's location along the Atlantic Flyway provides access to migrating raptors during trapping season.",
+    "agency": "New Jersey Division of Fish and Wildlife",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Cooper's Hawk", "Peregrine Falcon"],
+    "neighbors": ["NY", "PA", "DE"]
+  },
+  {
+    "code": "NM",
+    "name": "New Mexico",
+    "slug": "new-mexico",
+    "intro": "Falconry in New Mexico is regulated by the New Mexico Department of Game and Fish, which handles raptor permits across the state. New Mexico's high desert, mountain forests, and Rio Grande valley support a rich diversity of raptor species and hunting opportunities. Harris's hawks thrive in the state's southern desert regions, while prairie falcons and red-tailed hawks are popular choices for falconers in the northern and central parts of the state.",
+    "agency": "New Mexico Department of Game and Fish",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Harris's Hawk", "Prairie Falcon", "Red-tailed Hawk"],
+    "neighbors": ["CO", "AZ", "TX", "OK"]
+  },
+  {
+    "code": "NY",
+    "name": "New York",
+    "slug": "new-york",
+    "intro": "Falconry in New York is overseen by the New York State Department of Environmental Conservation, which manages raptor permits throughout the state. New York's diverse geography, from the Adirondack wilderness to Long Island's coastal plains and the agricultural Hudson Valley, supports a large and active falconry community. Red-tailed hawks are the most commonly flown species, with Cooper's hawks and Harris's hawks also popular among the state's falconers.",
+    "agency": "New York State Department of Environmental Conservation",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Cooper's Hawk", "Harris's Hawk"],
+    "neighbors": ["VT", "MA", "CT", "NJ"]
+  },
+  {
+    "code": "NC",
+    "name": "North Carolina",
+    "slug": "north-carolina",
+    "intro": "Falconry in North Carolina is regulated by the North Carolina Wildlife Resources Commission, which administers raptor permits for the state. North Carolina's terrain ranges from the Blue Ridge Mountains to the Outer Banks, providing falconers with a wide variety of hunting environments and quarry species. Red-tailed hawks and Cooper's hawks are the most popular species, with the state's moderate climate allowing for a comfortable hunting season.",
+    "agency": "North Carolina Wildlife Resources Commission",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Cooper's Hawk", "Red-shouldered Hawk"],
+    "neighbors": ["VA", "TN", "GA", "SC"]
+  },
+  {
+    "code": "ND",
+    "name": "North Dakota",
+    "slug": "north-dakota",
+    "intro": "Falconry in North Dakota is managed by the North Dakota Game and Fish Department, which oversees raptor permits in the state. North Dakota's expansive prairies and pothole wetlands provide exceptional habitat for upland game birds and waterfowl, creating outstanding opportunities for longwing falconry. Prairie falcons and red-tailed hawks are well-adapted to the state's open grassland landscape, though the harsh winters limit the hunting season.",
+    "agency": "North Dakota Game and Fish Department",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Prairie Falcon", "Red-tailed Hawk", "Northern Goshawk"],
+    "neighbors": ["MT", "SD", "MN"]
+  },
+  {
+    "code": "OH",
+    "name": "Ohio",
+    "slug": "ohio",
+    "intro": "Falconry in Ohio is regulated by the Ohio Department of Natural Resources, Division of Wildlife, which manages raptor permits across the state. Ohio's farmland, woodlots, and Lake Erie shoreline provide productive hunting terrain with strong populations of cottontail rabbits and game birds. Red-tailed hawks are the most widely flown species in Ohio, and the state has a well-organized falconry community with an active state club.",
+    "agency": "Ohio Department of Natural Resources",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Cooper's Hawk", "Harris's Hawk"],
+    "neighbors": ["MI", "IN", "KY", "PA"]
+  },
+  {
+    "code": "OK",
+    "name": "Oklahoma",
+    "slug": "oklahoma",
+    "intro": "Falconry in Oklahoma is overseen by the Oklahoma Department of Wildlife Conservation, which administers raptor permits for the state. Oklahoma's cross-timbers, prairies, and Red River plains create a transitional landscape where eastern and western raptor species overlap. Red-tailed hawks and Harris's hawks are popular choices, and the state's abundant rabbit and quail populations make it an excellent location for falconry.",
+    "agency": "Oklahoma Department of Wildlife Conservation",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Harris's Hawk", "Prairie Falcon"],
+    "neighbors": ["KS", "MO", "AR", "TX"]
+  },
+  {
+    "code": "OR",
+    "name": "Oregon",
+    "slug": "oregon",
+    "intro": "Falconry in Oregon is regulated by the Oregon Department of Fish and Wildlife, which manages raptor permits throughout the state. Oregon's dramatic geographic diversity, from the wet coastal forests to the high desert east of the Cascades, supports a broad range of falconry styles and species. Red-tailed hawks, northern goshawks, and peregrine falcons are all popular, with the state's varied landscapes offering hunting opportunities for every type of falconer.",
+    "agency": "Oregon Department of Fish and Wildlife",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Northern Goshawk", "Peregrine Falcon"],
+    "neighbors": ["WA", "ID", "NV", "CA"]
+  },
+  {
+    "code": "PA",
+    "name": "Pennsylvania",
+    "slug": "pennsylvania",
+    "intro": "Falconry in Pennsylvania is managed by the Pennsylvania Game Commission, which oversees raptor permits for the state. Pennsylvania's Appalachian ridges, extensive forests, and agricultural valleys provide excellent habitat for both raptors and quarry species. Red-tailed hawks are the most commonly flown species, and the state's strong game populations, including rabbits, squirrels, and pheasants, make it one of the more productive eastern states for falconry.",
+    "agency": "Pennsylvania Game Commission",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Cooper's Hawk", "Harris's Hawk"],
+    "neighbors": ["NY", "NJ", "OH", "WV"]
+  },
+  {
+    "code": "RI",
+    "name": "Rhode Island",
+    "slug": "rhode-island",
+    "intro": "Falconry in Rhode Island is regulated by the Rhode Island Department of Environmental Management, Division of Fish and Wildlife, which handles raptor permits for the state. As the smallest state, Rhode Island's falconry opportunities are concentrated but productive, with coastal areas, farmland, and suburban edges providing accessible hunting terrain. Red-tailed hawks and Cooper's hawks are the most commonly flown species among the state's small but dedicated falconry community.",
+    "agency": "Rhode Island Department of Environmental Management",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Cooper's Hawk", "American Kestrel"],
+    "neighbors": ["MA", "CT"]
+  },
+  {
+    "code": "SC",
+    "name": "South Carolina",
+    "slug": "south-carolina",
+    "intro": "Falconry in South Carolina is overseen by the South Carolina Department of Natural Resources, which administers raptor permits across the state. South Carolina's Lowcountry marshes, Piedmont farmland, and Upstate foothills create a diverse hunting environment. Red-tailed hawks and Cooper's hawks are popular, and the state's mild climate and long hunting season make it an appealing place for falconry throughout the fall and winter months.",
+    "agency": "South Carolina Department of Natural Resources",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Cooper's Hawk", "Red-shouldered Hawk"],
+    "neighbors": ["NC", "GA"]
+  },
+  {
+    "code": "SD",
+    "name": "South Dakota",
+    "slug": "south-dakota",
+    "intro": "Falconry in South Dakota is managed by the South Dakota Game, Fish and Parks Department, which regulates raptor permits in the state. South Dakota's vast prairies, Black Hills forests, and Missouri River breaks provide outstanding hunting terrain, particularly for longwing falconry on pheasants and grouse. The state is widely regarded as one of the premier destinations for upland hawking, with prairie falcons and red-tailed hawks among the most popular species.",
+    "agency": "South Dakota Game, Fish and Parks",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Prairie Falcon", "Red-tailed Hawk", "Northern Goshawk"],
+    "neighbors": ["ND", "MT", "WY", "NE"]
+  },
+  {
+    "code": "TN",
+    "name": "Tennessee",
+    "slug": "tennessee",
+    "intro": "Falconry in Tennessee is regulated by the Tennessee Wildlife Resources Agency, which manages raptor permits throughout the state. Tennessee's landscape spans the Great Smoky Mountains to the Mississippi River bottomlands, providing varied terrain for falconry. Red-tailed hawks are the most commonly flown species, and the state's moderate climate and healthy rabbit and squirrel populations support an active falconry community.",
+    "agency": "Tennessee Wildlife Resources Agency",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Cooper's Hawk", "Red-shouldered Hawk"],
+    "neighbors": ["KY", "VA", "NC", "GA"]
+  },
+  {
+    "code": "TX",
+    "name": "Texas",
+    "slug": "texas",
+    "intro": "Falconry in Texas is overseen by the Texas Parks and Wildlife Department, which administers raptor permits for the state. Texas's enormous size and geographic diversity, from the Gulf Coast to the Trans-Pecos desert and the Hill Country, make it one of the most versatile states for falconry in the nation. Harris's hawks are especially popular in South Texas where they are native, and the state also has strong traditions of red-tailed hawk and peregrine falcon falconry.",
+    "agency": "Texas Parks and Wildlife Department",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Harris's Hawk", "Red-tailed Hawk", "Peregrine Falcon"],
+    "neighbors": ["NM", "OK", "AR", "LA"]
+  },
+  {
+    "code": "UT",
+    "name": "Utah",
+    "slug": "utah",
+    "intro": "Falconry in Utah is regulated by the Utah Division of Wildlife Resources, which manages raptor permits across the state. Utah's dramatic landscapes, from the Wasatch Range to the red rock desert, provide diverse hunting environments for falconers. Prairie falcons and red-tailed hawks are popular choices, and Utah's active falconry club contributes to a strong community of practitioners in the state.",
+    "agency": "Utah Division of Wildlife Resources",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Prairie Falcon", "Red-tailed Hawk", "Northern Goshawk"],
+    "neighbors": ["ID", "WY", "CO", "NV"]
+  },
+  {
+    "code": "VT",
+    "name": "Vermont",
+    "slug": "vermont",
+    "intro": "Falconry in Vermont is managed by the Vermont Fish and Wildlife Department, which oversees raptor permits for the state. Vermont's Green Mountains, rural farmland, and forested valleys create a scenic and productive environment for falconry. Red-tailed hawks are the most commonly flown species, with northern goshawks also popular among experienced falconers who hunt Vermont's extensive northern hardwood forests.",
+    "agency": "Vermont Fish and Wildlife Department",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Northern Goshawk", "Cooper's Hawk"],
+    "neighbors": ["NH", "MA", "NY"]
+  },
+  {
+    "code": "VA",
+    "name": "Virginia",
+    "slug": "virginia",
+    "intro": "Falconry in Virginia is regulated by the Virginia Department of Wildlife Resources, which administers raptor permits throughout the state. Virginia's Shenandoah Valley, Piedmont farmland, and Tidewater coastal areas provide a range of productive hunting environments. Red-tailed hawks and Cooper's hawks are widely flown, and Virginia's central East Coast location and moderate climate make it a popular state for falconry year-round.",
+    "agency": "Virginia Department of Wildlife Resources",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Cooper's Hawk", "Red-shouldered Hawk"],
+    "neighbors": ["WV", "MD", "NC", "KY"]
+  },
+  {
+    "code": "WA",
+    "name": "Washington",
+    "slug": "washington",
+    "intro": "Falconry in Washington is overseen by the Washington Department of Fish and Wildlife, which manages raptor permits for the state. Washington's Cascade Range divides the state into the wet, forested west side and the dry, open east side, offering vastly different falconry experiences. Red-tailed hawks, peregrine falcons, and northern goshawks are all popular, and the state has one of the largest and most active falconry communities in the Pacific Northwest.",
+    "agency": "Washington Department of Fish and Wildlife",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Peregrine Falcon", "Northern Goshawk"],
+    "neighbors": ["OR", "ID"]
+  },
+  {
+    "code": "WV",
+    "name": "West Virginia",
+    "slug": "west-virginia",
+    "intro": "Falconry in West Virginia is regulated by the West Virginia Division of Natural Resources, which handles raptor permits for the state. West Virginia's rugged Appalachian terrain, heavily forested ridges, and narrow river valleys present both challenges and rewards for falconers. Red-tailed hawks are the most commonly flown species, with the state's mountainous landscape also supporting healthy populations of ruffed grouse, a prized quarry for goshawk falconry.",
+    "agency": "West Virginia Division of Natural Resources",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Cooper's Hawk", "Northern Goshawk"],
+    "neighbors": ["PA", "MD", "VA", "KY"]
+  },
+  {
+    "code": "WI",
+    "name": "Wisconsin",
+    "slug": "wisconsin",
+    "intro": "Falconry in Wisconsin is managed by the Wisconsin Department of Natural Resources, which oversees raptor permits across the state. Wisconsin's mix of northern forests, central farmland, and Great Lakes shoreline provides diverse hunting opportunities for falconers. Red-tailed hawks are the most popular species, and the state's strong populations of cottontail rabbits and ruffed grouse support both broadwing and shortwing hawking styles.",
+    "agency": "Wisconsin Department of Natural Resources",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Red-tailed Hawk", "Cooper's Hawk", "Northern Goshawk"],
+    "neighbors": ["MN", "IA", "IL", "MI"]
+  },
+  {
+    "code": "WY",
+    "name": "Wyoming",
+    "slug": "wyoming",
+    "intro": "Falconry in Wyoming is regulated by the Wyoming Game and Fish Department, which administers raptor permits throughout the state. Wyoming's wide-open sagebrush steppe, mountain ranges, and river valleys provide outstanding habitat for raptors, with some of the lowest human population density in the country. Prairie falcons are a signature species for Wyoming falconers, and the state's vast public lands offer unparalleled access to remote hunting terrain.",
+    "agency": "Wyoming Game and Fish Department",
+    "permit_levels": "Apprentice, General, Master",
+    "popular_species": ["Prairie Falcon", "Red-tailed Hawk", "Northern Goshawk"],
+    "neighbors": ["MT", "SD", "NE", "CO"]
+  }
+]

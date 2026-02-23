@@ -1,0 +1,242 @@
+[
+  {
+    "slug": "falconry-schools",
+    "folder": "categories",
+    "title": "Falconry Schools and Instructors",
+    "description": "Directory of falconry schools and certified instructors offering hands-on training for beginners and experienced falconers.",
+    "tag": "Getting Started",
+    "target_keyword": "falconry schools"
+  },
+  {
+    "slug": "mentors-and-sponsors",
+    "folder": "categories",
+    "title": "Mentors and Sponsors",
+    "description": "Find experienced falconers willing to mentor apprentices. A licensed sponsor is required in most states before you can obtain your falconry permit.",
+    "tag": "Getting Started",
+    "target_keyword": "falconry mentor"
+  },
+  {
+    "slug": "bird-abatement",
+    "folder": "categories",
+    "title": "Pest Bird Abatement",
+    "description": "Companies and falconers offering bird abatement services using trained raptors to deter pest birds from commercial and agricultural sites.",
+    "tag": "Services",
+    "target_keyword": "bird abatement falconry"
+  },
+  {
+    "slug": "breeders",
+    "folder": "categories",
+    "title": "Raptor Breeders",
+    "description": "Licensed raptor breeders offering captive-bred hawks, falcons, and other birds of prey for falconry.",
+    "tag": "Reference",
+    "target_keyword": "raptor breeders"
+  },
+  {
+    "slug": "raptor-veterinarians",
+    "folder": "categories",
+    "title": "Raptor Veterinarians",
+    "description": "Avian and raptor-specialist veterinarians experienced in treating birds of prey used in falconry.",
+    "tag": "Reference",
+    "target_keyword": "raptor veterinarian"
+  },
+  {
+    "slug": "rehabilitators",
+    "folder": "categories",
+    "title": "Wildlife Rehabilitators",
+    "description": "Licensed wildlife rehabilitators who accept injured or orphaned raptors for treatment and release.",
+    "tag": "Reference",
+    "target_keyword": "raptor rehabilitator"
+  },
+  {
+    "slug": "events-and-demos",
+    "folder": "categories",
+    "title": "Events and Demonstrations",
+    "description": "Falconry meets, field trials, club gatherings, and live raptor demonstrations open to the public.",
+    "tag": "Services",
+    "target_keyword": "falconry events"
+  },
+  {
+    "slug": "gloves-and-gauntlets",
+    "folder": "categories",
+    "title": "Gloves and Gauntlets",
+    "description": "Falconry gloves and gauntlets designed to protect your hand and forearm while handling raptors.",
+    "tag": "Gear",
+    "target_keyword": "falconry gloves"
+  },
+  {
+    "slug": "hoods",
+    "folder": "categories",
+    "title": "Falconry Hoods",
+    "description": "Leather hoods used to calm raptors by blocking their vision during transport and training sessions.",
+    "tag": "Gear",
+    "target_keyword": "falconry hoods"
+  },
+  {
+    "slug": "jesses-leashes-swivels",
+    "folder": "categories",
+    "title": "Jesses, Leashes, and Swivels",
+    "description": "Essential tethering equipment including jesses, leashes, and swivels that keep your bird safely secured.",
+    "tag": "Gear",
+    "target_keyword": "falconry jesses"
+  },
+  {
+    "slug": "anklets-and-bewits",
+    "folder": "categories",
+    "title": "Anklets and Bewits",
+    "description": "Leather anklets fitted around a raptor's legs and bewits used to attach bells and other small items.",
+    "tag": "Gear",
+    "target_keyword": "falconry anklets"
+  },
+  {
+    "slug": "perches-blocks",
+    "folder": "categories",
+    "title": "Perches and Blocks",
+    "description": "Indoor and outdoor perches, bow perches, and block perches suited to different raptor species and housing setups.",
+    "tag": "Gear",
+    "target_keyword": "falconry perches"
+  },
+  {
+    "slug": "mews-builds",
+    "folder": "categories",
+    "title": "Mews Materials and Builds",
+    "description": "Materials, plans, and kits for building a mews that meets state and federal housing requirements for raptors.",
+    "tag": "Gear",
+    "target_keyword": "falconry mews"
+  },
+  {
+    "slug": "telemetry-and-trackers",
+    "folder": "categories",
+    "title": "Telemetry and Trackers",
+    "description": "GPS and radio telemetry systems used to track and locate your bird during free flights and hunts.",
+    "tag": "Gear",
+    "target_keyword": "falconry telemetry"
+  },
+  {
+    "slug": "scales-and-health-tools",
+    "folder": "categories",
+    "title": "Scales and Health Tools",
+    "description": "Digital scales, weight-tracking tools, and health monitoring equipment for daily raptor management.",
+    "tag": "Gear",
+    "target_keyword": "falconry scales"
+  },
+  {
+    "slug": "falconry-equipment-checklist",
+    "folder": "resources",
+    "title": "Falconry Equipment Checklist",
+    "description": "A complete checklist of every piece of equipment you need before trapping or acquiring your first bird.",
+    "tag": "Getting Started",
+    "target_keyword": "falconry equipment checklist"
+  },
+  {
+    "slug": "falconry-rules-by-state",
+    "folder": "resources",
+    "title": "Falconry Rules by State",
+    "description": "State-by-state breakdown of falconry regulations, permit classes, and species restrictions across the US.",
+    "tag": "Legal",
+    "target_keyword": "falconry laws by state"
+  },
+  {
+    "slug": "equipment-weight-charts",
+    "folder": "resources",
+    "title": "Equipment Weight Charts",
+    "description": "Reference charts showing recommended equipment sizes and weights matched to common raptor species.",
+    "tag": "Reference",
+    "target_keyword": "falconry equipment weight chart"
+  },
+  {
+    "slug": "telemetry-range-comparison",
+    "folder": "resources",
+    "title": "Telemetry Range Comparison",
+    "description": "Side-by-side comparison of popular telemetry systems including range, battery life, weight, and price.",
+    "tag": "Gear",
+    "target_keyword": "falconry telemetry comparison"
+  },
+  {
+    "slug": "mews-ventilation-standards",
+    "folder": "resources",
+    "title": "Mews Ventilation Standards",
+    "description": "Guidelines for proper mews ventilation to maintain healthy airflow and prevent respiratory issues in raptors.",
+    "tag": "Reference",
+    "target_keyword": "mews ventilation requirements"
+  },
+  {
+    "slug": "hood-sizes-chart",
+    "folder": "resources",
+    "title": "Hood Sizes Chart",
+    "description": "Sizing chart for falconry hoods matched to species, with measurement tips for a proper fit.",
+    "tag": "Gear",
+    "target_keyword": "falconry hood sizes"
+  },
+  {
+    "slug": "cost-to-start-falconry",
+    "folder": "resources",
+    "title": "Cost to Start Falconry",
+    "description": "Realistic cost breakdown covering permits, equipment, mews construction, and ongoing expenses for new falconers.",
+    "tag": "Getting Started",
+    "target_keyword": "how much does falconry cost"
+  },
+  {
+    "slug": "how-to-find-a-sponsor",
+    "folder": "resources",
+    "title": "How to Find a Falconry Sponsor",
+    "description": "Practical advice on locating and approaching a licensed sponsor, including what to expect during the sponsorship process.",
+    "tag": "Getting Started",
+    "target_keyword": "how to find a falconry sponsor"
+  },
+  {
+    "slug": "apprenticeship-interview-questions",
+    "folder": "resources",
+    "title": "Apprenticeship Interview Questions",
+    "description": "Common questions sponsors ask prospective apprentices and tips on how to prepare thoughtful answers.",
+    "tag": "Getting Started",
+    "target_keyword": "falconry apprenticeship questions"
+  },
+  {
+    "slug": "how-to-build-a-mews",
+    "folder": "resources",
+    "title": "How to Build a Mews",
+    "description": "Step-by-step guide to designing and building a mews that meets federal and state housing standards for raptors.",
+    "tag": "Getting Started",
+    "target_keyword": "how to build a falconry mews"
+  },
+  {
+    "slug": "legal-birds-for-beginners",
+    "folder": "resources",
+    "title": "Legal Birds for Beginners",
+    "description": "Which raptor species apprentice falconers are legally allowed to fly, with notes on temperament and hunting style.",
+    "tag": "Legal",
+    "target_keyword": "legal falconry birds for beginners"
+  },
+  {
+    "slug": "bird-abatement-services",
+    "folder": "services",
+    "title": "Bird Abatement Services",
+    "description": "Professional falcon-based bird abatement for airports, farms, landfills, and commercial properties.",
+    "tag": "Services",
+    "target_keyword": "bird abatement services"
+  },
+  {
+    "slug": "event-demonstrations",
+    "folder": "services",
+    "title": "Event Demonstrations",
+    "description": "Book a live falconry demonstration for fairs, schools, corporate events, and private gatherings.",
+    "tag": "Services",
+    "target_keyword": "falconry demonstration"
+  },
+  {
+    "slug": "falconry-lessons",
+    "folder": "services",
+    "title": "Falconry Lessons",
+    "description": "One-on-one and group falconry lessons for beginners looking to experience handling a trained raptor.",
+    "tag": "Services",
+    "target_keyword": "falconry lessons"
+  },
+  {
+    "slug": "pest-control",
+    "folder": "services",
+    "title": "Pest Control with Raptors",
+    "description": "Eco-friendly pest control using trained birds of prey to manage rodent and bird populations without chemicals.",
+    "tag": "Services",
+    "target_keyword": "raptor pest control"
+  }
+]

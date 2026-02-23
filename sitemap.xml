@@ -1,24 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Core pages -->
   <url><loc>https://falconrydirectory.com/</loc><priority>1.0</priority></url>
   <url><loc>https://falconrydirectory.com/directory.html</loc><priority>0.9</priority></url>
+  <url><loc>https://falconrydirectory.com/blog.html</loc><priority>0.8</priority></url>
   <url><loc>https://falconrydirectory.com/submit.html</loc><priority>0.7</priority></url>
   <url><loc>https://falconrydirectory.com/about.html</loc><priority>0.6</priority></url>
   <url><loc>https://falconrydirectory.com/contact.html</loc><priority>0.6</priority></url>
-  <url><loc>https://falconrydirectory.com/blog.html</loc><priority>0.7</priority></url>
+
+  <!-- State & state-category templates -->
+  <url><loc>https://falconrydirectory.com/state.html</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/state-category.html</loc><priority>0.7</priority></url>
+
+  <!-- Category landing pages — Services -->
+  <url><loc>https://falconrydirectory.com/categories/falconry-schools.html</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/categories/mentors-and-sponsors.html</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/categories/bird-abatement.html</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/categories/breeders.html</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/categories/raptor-veterinarians.html</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/categories/rehabilitators.html</loc><priority>0.7</priority></url>
+  <url><loc>https://falconrydirectory.com/categories/events-and-demos.html</loc><priority>0.7</priority></url>
+
+  <!-- Category landing pages — Products (with affiliate cards) -->
+  <url><loc>https://falconrydirectory.com/categories/gloves-and-gauntlets.html</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/categories/hoods.html</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/categories/jesses-leashes-swivels.html</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/categories/anklets-and-bewits.html</loc><priority>0.7</priority></url>
+  <url><loc>https://falconrydirectory.com/categories/perches-blocks.html</loc><priority>0.7</priority></url>
+  <url><loc>https://falconrydirectory.com/categories/mews-builds.html</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/categories/telemetry-and-trackers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/categories/lures-and-creances.html</loc><priority>0.7</priority></url>
+  <url><loc>https://falconrydirectory.com/categories/scales-and-health-tools.html</loc><priority>0.7</priority></url>
+
+  <!-- Service landing pages -->
+  <url><loc>https://falconrydirectory.com/services/bird-abatement.html</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/services/falconry-lessons.html</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/services/pest-control.html</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/services/event-demonstrations.html</loc><priority>0.7</priority></url>
+
+  <!-- Resource & reference pages -->
+  <url><loc>https://falconrydirectory.com/resources/falconry-equipment-checklist.html</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/resources/falconry-rules-by-state.html</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/resources/equipment-weight-charts.html</loc><priority>0.7</priority></url>
+  <url><loc>https://falconrydirectory.com/resources/telemetry-range-comparison.html</loc><priority>0.7</priority></url>
+  <url><loc>https://falconrydirectory.com/resources/mews-ventilation-standards.html</loc><priority>0.7</priority></url>
+  <url><loc>https://falconrydirectory.com/resources/hood-sizes-chart.html</loc><priority>0.7</priority></url>
+  <url><loc>https://falconrydirectory.com/resources/cost-to-start-falconry.html</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/resources/how-to-find-a-sponsor.html</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/resources/apprenticeship-interview-questions.html</loc><priority>0.7</priority></url>
+  <url><loc>https://falconrydirectory.com/resources/how-to-build-a-mews.html</loc><priority>0.7</priority></url>
+  <url><loc>https://falconrydirectory.com/resources/legal-birds-for-beginners.html</loc><priority>0.7</priority></url>
+
+  <!-- Directory filter combos for SEO -->
+  <url><loc>https://falconrydirectory.com/directory.html?type=service</loc><priority>0.7</priority></url>
+  <url><loc>https://falconrydirectory.com/directory.html?type=product</loc><priority>0.7</priority></url>
+
+  <!-- Legal pages -->
   <url><loc>https://falconrydirectory.com/legal/terms.html</loc><priority>0.3</priority></url>
   <url><loc>https://falconrydirectory.com/legal/privacy.html</loc><priority>0.3</priority></url>
   <url><loc>https://falconrydirectory.com/legal/disclaimer.html</loc><priority>0.3</priority></url>
-  <!-- Category + type combos for SEO -->
-  <url><loc>https://falconrydirectory.com/directory.html?cat=falconry-schools&amp;type=service</loc><priority>0.8</priority></url>
-  <url><loc>https://falconrydirectory.com/directory.html?cat=bird-abatement&amp;type=service</loc><priority>0.8</priority></url>
-  <url><loc>https://falconrydirectory.com/directory.html?cat=breeders&amp;type=service</loc><priority>0.8</priority></url>
-  <url><loc>https://falconrydirectory.com/directory.html?cat=raptor-veterinarians&amp;type=service</loc><priority>0.8</priority></url>
-  <url><loc>https://falconrydirectory.com/directory.html?cat=mentors-and-sponsors&amp;type=service</loc><priority>0.8</priority></url>
-  <url><loc>https://falconrydirectory.com/directory.html?cat=telemetry-and-trackers&amp;type=product</loc><priority>0.8</priority></url>
-  <url><loc>https://falconrydirectory.com/directory.html?cat=gloves-and-gauntlets&amp;type=product</loc><priority>0.8</priority></url>
-  <url><loc>https://falconrydirectory.com/directory.html?cat=hoods&amp;type=product</loc><priority>0.8</priority></url>
-  <url><loc>https://falconrydirectory.com/directory.html?cat=mews-builds&amp;type=product</loc><priority>0.7</priority></url>
-  <url><loc>https://falconrydirectory.com/directory.html?type=service</loc><priority>0.8</priority></url>
-  <url><loc>https://falconrydirectory.com/directory.html?type=product</loc><priority>0.8</priority></url>
 </urlset>
