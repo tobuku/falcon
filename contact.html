@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact, Falconry Directory USA</title>
+  <meta name="description" content="Contact the directory team. Report listings, request edits, ask about paid placement." />
+  <link rel="canonical" href="https://example.com/contact.html" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <script defer src="/assets/js/app.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="/" aria-label="Falconry Directory USA Home">
+        <span class="brand-mark" aria-hidden="true">FD</span>
+        <span class="brand-text">Falconry Directory USA</span>
+      </a>
+      <nav class="nav">
+        <a href="/directory.html">Directory</a>
+        <a href="/submit.html">Add Listing</a>
+        <a href="/blog.html">Guides</a>
+        <a href="/about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container narrow">
+      <h1>Contact</h1>
+      <p class="lede">Send a request. Reports receive priority.</p>
+
+      <form class="form card" action="#" method="post">
+        <label class="field">
+          <span class="label">Reason</span>
+          <select name="reason">
+            <option value="general">General</option>
+            <option value="report">Report listing</option>
+            <option value="edit">Request edit</option>
+            <option value="billing">Billing</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span class="label">Email</span>
+          <input name="email" type="email" required />
+        </label>
+
+        <label class="field">
+          <span class="label">Message</span>
+          <textarea name="message" rows="6" required></textarea>
+        </label>
+
+        <div class="actions">
+          <button class="btn" type="submit">Send</button>
+        </div>
+
+        <p class="fineprint">This form needs a backend endpoint later. Static hosting stores nothing.</p>
+      </form>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <span class="fineprint">© <span id="year"></span> Falconry Directory USA</span>
+    </div>
+  </footer>
+</body>
+</html>
