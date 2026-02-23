@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Listing, Falconry Directory USA</title>
+  <meta name="description" content="Falconry listing details including contact info, services, products, service area, and credentials." />
+  <link rel="canonical" href="https://example.com/listing.html" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <script defer src="/assets/js/app.js"></script>
+  <script defer src="/assets/js/listing.js"></script>
+  <script defer src="/assets/js/seo.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="/" aria-label="Falconry Directory USA Home">
+        <span class="brand-mark" aria-hidden="true">FD</span>
+        <span class="brand-text">Falconry Directory USA</span>
+      </a>
+      <nav class="nav">
+        <a href="/directory.html">Directory</a>
+        <a href="/submit.html">Add Listing</a>
+        <a href="/blog.html">Guides</a>
+        <a href="/about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div id="backRow" class="back-row"></div>
+
+      <article class="listing">
+        <header class="listing-head">
+          <div>
+            <h1 id="name">Listing</h1>
+            <p id="tagline" class="lede"></p>
+            <div class="badges" id="badges"></div>
+          </div>
+          <div class="listing-cta">
+            <a id="phoneBtn" class="btn" href="#">Call</a>
+            <a id="siteBtn" class="btn btn-ghost" href="#" target="_blank" rel="noopener">Website</a>
+          </div>
+        </header>
+
+        <div class="listing-grid">
+          <section class="card">
+            <h2>Details</h2>
+            <dl class="dl">
+              <div><dt>Type</dt><dd id="type"></dd></div>
+              <div><dt>Category</dt><dd id="category"></dd></div>
+              <div><dt>State</dt><dd id="state"></dd></div>
+              <div><dt>City</dt><dd id="city"></dd></div>
+              <div><dt>Service area</dt><dd id="serviceArea"></dd></div>
+              <div><dt>Price model</dt><dd id="priceModel"></dd></div>
+            </dl>
+          </section>
+
+          <section class="card">
+            <h2>Credentials</h2>
+            <ul class="bullets" id="credentials"></ul>
+            <p class="fineprint">Permit data needs verification with the state agency.</p>
+          </section>
+
+          <section class="card">
+            <h2>Services and products</h2>
+            <ul class="chips" id="offerings"></ul>
+          </section>
+
+          <section class="card">
+            <h2>Contact</h2>
+            <div class="contact">
+              <div><span class="label-inline">Phone</span> <span id="phone"></span></div>
+              <div><span class="label-inline">Email</span> <span id="email"></span></div>
+              <div><span class="label-inline">Address</span> <span id="address"></span></div>
+            </div>
+            <div class="card-actions">
+              <a id="mapBtn" class="btn btn-small btn-ghost" href="#" target="_blank" rel="noopener">Map</a>
+              <a id="reportBtn" class="btn btn-small btn-ghost" href="/contact.html?reason=report">Report listing</a>
+            </div>
+          </section>
+        </div>
+
+        <section class="section alt">
+          <div class="container">
+            <h2>Schema preview</h2>
+            <pre class="codebox" id="schemaBox"></pre>
+          </div>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-title">Legal</div>
+        <a href="/legal/terms.html">Terms</a>
+        <a href="/legal/privacy.html">Privacy</a>
+        <a href="/legal/disclaimer.html">Disclaimer</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span class="fineprint">© <span id="year"></span> Falconry Directory USA</span>
+    </div>
+  </footer>
+</body>
+</html>
