@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#0f1a2f"/>
+  <circle cx="320" cy="160" r="70" fill="#69a7ff" opacity="0.35"/>
+  <path d="M220 250c60-70 140-70 200 0" fill="none" stroke="#7ee0ff" stroke-width="10" opacity="0.6"/>
+  <text x="320" y="310" text-anchor="middle" font-family="Arial" font-size="22" fill="#b8c3df">Falconry Directory USA</text>
+</svg>
