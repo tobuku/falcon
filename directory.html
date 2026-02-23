@@ -3,41 +3,48 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Directory, Falconry services and products by state and category</title>
-  <meta name="description" content="Browse falconry services and products. Filter by state, category, type, and price. View listing details and contact info." />
-  <link rel="canonical" href="https://example.com/directory.html" />
-  <link rel="stylesheet" href="/assets/css/styles.css" />
-  <script defer src="/assets/js/app.js"></script>
-  <script defer src="/assets/js/directory.js"></script>
-  <script defer src="/assets/js/seo.js"></script>
+  <title>Falconry Directory | Browse Services, Products & Organizations by State</title>
+  <meta name="description" content="Browse falconry services, products, and organizations. Filter by state, category, type, and price. View verified listings with contact info." />
+  <link rel="canonical" href="https://falconrydirectory.com/directory.html" />
+  <meta property="og:title" content="Falconry Directory — Browse All Listings" />
+  <meta property="og:description" content="Search falconry schools, gear, breeders, abatement, and more across the United States." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/img/transparent-logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/app.js"></script>
+  <script defer src="assets/js/seo.js"></script>
+  <script defer src="assets/js/directory.js"></script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
     <div class="container header-row">
-      <a class="brand" href="/" aria-label="Falconry Directory USA Home">
-        <span class="brand-mark" aria-hidden="true">FD</span>
+      <a class="brand" href="./" aria-label="Falconry Directory USA Home">
+        <img class="brand-logo" src="assets/img/transparent-logo.svg" alt="" width="48" height="48" />
         <span class="brand-text">Falconry Directory USA</span>
       </a>
-      <nav class="nav">
-        <a href="/directory.html" aria-current="page">Directory</a>
-        <a href="/submit.html">Add Listing</a>
-        <a href="/blog.html">Guides</a>
-        <a href="/about.html">About</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+      <nav class="nav" id="navMenu">
+        <a href="directory.html" aria-current="page">Directory</a>
+        <a href="submit.html">Add Listing</a>
+        <a href="blog.html">Guides</a>
+        <a href="about.html">About</a>
       </nav>
     </div>
   </header>
 
-  <main class="section">
+  <main id="main" class="section">
     <div class="container">
       <div class="page-head">
-        <h1>Directory</h1>
-        <p class="lede">Search services and products. Filter by state and category.</p>
+        <h1>Falconry Directory</h1>
+        <p class="lede">Search services, products, and organizations. Filter by state, category, type, and price.</p>
       </div>
 
       <form id="filters" class="filters" autocomplete="off">
         <label class="field">
           <span class="label">Search</span>
-          <input name="q" id="q" type="search" placeholder="Try glove, telemetry, school, abatement" />
+          <input name="q" id="q" type="search" placeholder="Try glove, telemetry, school, abatement..." />
         </label>
 
         <label class="field">
@@ -77,13 +84,13 @@
             <option value="relevance">Relevance</option>
             <option value="verified">Verified first</option>
             <option value="newest">Newest</option>
-            <option value="az">Name A to Z</option>
+            <option value="az">Name A&ndash;Z</option>
           </select>
         </label>
 
         <div class="filter-actions">
           <button class="btn btn-small" type="submit">Apply</button>
-          <a class="btn btn-small btn-ghost" id="clearBtn" href="/directory.html">Clear</a>
+          <a class="btn btn-small btn-ghost" id="clearBtn" href="directory.html">Clear</a>
         </div>
       </form>
 
@@ -100,11 +107,14 @@
         <button class="btn btn-small btn-ghost" id="next">Next</button>
       </nav>
 
-      <section class="section alt">
-        <div class="container">
-          <h2>Index targets for SEO</h2>
-          <ul class="bullets" id="indexTargets"></ul>
-        </div>
+      <div class="seo-text-block" id="seoBlock">
+        <h2 id="seoTitle">Falconry Directory USA</h2>
+        <p id="seoText">Browse our complete directory of falconry services, products, and organizations across the United States. Use the filters above to narrow results by state, category, listing type, and price model. Every listing includes contact information, service areas, credentials, and offerings to help you find the right falconry resource.</p>
+      </div>
+
+      <section class="section" style="padding-bottom:0">
+        <h2>Quick Links</h2>
+        <ul class="bullets" id="indexTargets"></ul>
       </section>
     </div>
   </main>
@@ -113,20 +123,33 @@
     <div class="container footer-grid">
       <div>
         <div class="brand footer-brand">
-          <span class="brand-mark" aria-hidden="true">FD</span>
+          <img class="brand-logo" src="assets/img/transparent-logo.svg" alt="" width="48" height="48" />
           <span class="brand-text">Falconry Directory USA</span>
         </div>
-        <p class="fineprint">Data changes over time. Verify permits with the state agency.</p>
+        <p class="footer-slogan">Everything falconry. One place.</p>
+        <p class="fineprint" style="margin-top:8px;color:rgba(255,255,255,.5)">Data changes over time. Verify permits with the state agency.</p>
+      </div>
+      <div>
+        <div class="footer-title">Directory</div>
+        <a href="directory.html?type=service">Services</a>
+        <a href="directory.html?type=product">Products</a>
+        <a href="submit.html">Add Listing</a>
+      </div>
+      <div>
+        <div class="footer-title">Company</div>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="blog.html">Guides</a>
       </div>
       <div>
         <div class="footer-title">Legal</div>
-        <a href="/legal/terms.html">Terms</a>
-        <a href="/legal/privacy.html">Privacy</a>
-        <a href="/legal/disclaimer.html">Disclaimer</a>
+        <a href="legal/terms.html">Terms</a>
+        <a href="legal/privacy.html">Privacy</a>
+        <a href="legal/disclaimer.html">Disclaimer</a>
       </div>
     </div>
     <div class="container footer-bottom">
-      <span class="fineprint">© <span id="year"></span> Falconry Directory USA</span>
+      &copy; <span id="year"></span> Falconry Directory USA &middot; falconrydirectory.com
     </div>
   </footer>
 </body>

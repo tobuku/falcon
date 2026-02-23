@@ -3,58 +3,115 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Guides, Falconry Directory USA</title>
-  <meta name="description" content="Falconry guides. Gear basics, mentorship, mews planning, telemetry, and state by state checklists." />
-  <link rel="canonical" href="https://example.com/blog.html" />
-  <link rel="stylesheet" href="/assets/css/styles.css" />
-  <script defer src="/assets/js/app.js"></script>
+  <title>Falconry Guides &amp; Resources | Falconry Directory USA</title>
+  <meta name="description" content="Falconry guides covering gear checklists, mentorship requirements, abatement services, telemetry basics, mews planning, and state permit information." />
+  <link rel="canonical" href="https://falconrydirectory.com/blog.html" />
+  <link rel="icon" href="assets/img/transparent-logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/app.js"></script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
     <div class="container header-row">
-      <a class="brand" href="/" aria-label="Falconry Directory USA Home">
-        <span class="brand-mark" aria-hidden="true">FD</span>
+      <a class="brand" href="./" aria-label="Falconry Directory USA Home">
+        <img class="brand-logo" src="assets/img/transparent-logo.svg" alt="" width="48" height="48" />
         <span class="brand-text">Falconry Directory USA</span>
       </a>
-      <nav class="nav">
-        <a href="/directory.html">Directory</a>
-        <a href="/submit.html">Add Listing</a>
-        <a href="/blog.html" aria-current="page">Guides</a>
-        <a href="/about.html">About</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+      <nav class="nav" id="navMenu">
+        <a href="directory.html">Directory</a>
+        <a href="submit.html">Add Listing</a>
+        <a href="blog.html" aria-current="page">Guides</a>
+        <a href="about.html">About</a>
       </nav>
     </div>
   </header>
 
-  <main class="section">
+  <main id="main" class="section">
     <div class="container">
-      <h1>Guides</h1>
-      <p class="lede">Content supports search traffic. Each post links to relevant categories and listings.</p>
+      <div class="page-head">
+        <h1>Falconry Guides &amp; Resources</h1>
+        <p class="lede">Practical guides for falconers. Each article links to relevant directory categories and listings.</p>
+      </div>
 
-      <div class="results-grid">
-        <article class="card">
-          <h2>Falconry gear checklist</h2>
-          <p>Glove, hood, jesses, leash, swivel, perch, scale, telemetry.</p>
-          <a class="text-link" href="/directory.html?type=product">Browse products</a>
+      <div class="blog-grid">
+        <article class="card blog-card">
+          <span class="card-tag">Gear</span>
+          <h2>Falconry Gear Checklist</h2>
+          <p>Essential equipment every falconer needs: glove, hood, jesses, leash, swivel, perch, scale, and telemetry unit.</p>
+          <a class="text-link" href="directory.html?type=product">Browse gear sellers &rarr;</a>
         </article>
 
-        <article class="card">
-          <h2>How mentorship works</h2>
-          <p>Apprentice sponsor requirements vary by state. Use state filters to find mentors.</p>
-          <a class="text-link" href="/directory.html?cat=falconry-schools&type=service">Browse schools</a>
+        <article class="card blog-card">
+          <span class="card-tag">Training</span>
+          <h2>How Mentorship Works</h2>
+          <p>Apprentice sponsor requirements vary by state. Learn what to expect and how to find a licensed sponsor near you.</p>
+          <a class="text-link" href="directory.html?cat=mentors-and-sponsors&type=service">Find mentors &rarr;</a>
         </article>
 
-        <article class="card">
-          <h2>Abatement buying guide</h2>
-          <p>Service scope, proof of insurance, reporting, seasonality, contract terms.</p>
-          <a class="text-link" href="/directory.html?cat=bird-abatement&type=service">Browse providers</a>
+        <article class="card blog-card">
+          <span class="card-tag">Services</span>
+          <h2>Abatement Buying Guide</h2>
+          <p>What to look for in a pest bird abatement provider: service scope, insurance, reporting, seasonality, and contracts.</p>
+          <a class="text-link" href="directory.html?cat=bird-abatement&type=service">Browse providers &rarr;</a>
+        </article>
+
+        <article class="card blog-card">
+          <span class="card-tag">Tech</span>
+          <h2>Telemetry 101</h2>
+          <p>Understanding transmitter types, frequencies, receivers, and antenna options for tracking your raptor in the field.</p>
+          <a class="text-link" href="directory.html?cat=telemetry-and-trackers&type=product">Browse telemetry gear &rarr;</a>
+        </article>
+
+        <article class="card blog-card">
+          <span class="card-tag">Housing</span>
+          <h2>Mews Planning Guide</h2>
+          <p>Design considerations for raptor housing: size, ventilation, perch placement, weathering areas, and state requirements.</p>
+          <a class="text-link" href="directory.html?cat=mews-builds&type=product">Browse mews supplies &rarr;</a>
+        </article>
+
+        <article class="card blog-card">
+          <span class="card-tag">Legal</span>
+          <h2>State Permit Overview</h2>
+          <p>Falconry permits differ by state. A high-level overview of apprentice, general, and master falconer levels.</p>
+          <a class="text-link" href="directory.html?cat=falconry-schools&type=service">Find schools &rarr;</a>
         </article>
       </div>
     </div>
   </main>
 
   <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand footer-brand">
+          <img class="brand-logo" src="assets/img/transparent-logo.svg" alt="" width="48" height="48" />
+          <span class="brand-text">Falconry Directory USA</span>
+        </div>
+        <p class="footer-slogan">Everything falconry. One place.</p>
+      </div>
+      <div>
+        <div class="footer-title">Directory</div>
+        <a href="directory.html?type=service">Services</a>
+        <a href="directory.html?type=product">Products</a>
+        <a href="submit.html">Add Listing</a>
+      </div>
+      <div>
+        <div class="footer-title">Company</div>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="blog.html">Guides</a>
+      </div>
+      <div>
+        <div class="footer-title">Legal</div>
+        <a href="legal/terms.html">Terms</a>
+        <a href="legal/privacy.html">Privacy</a>
+        <a href="legal/disclaimer.html">Disclaimer</a>
+      </div>
+    </div>
     <div class="container footer-bottom">
-      <span class="fineprint">© <span id="year"></span> Falconry Directory USA</span>
+      &copy; <span id="year"></span> Falconry Directory USA &middot; falconrydirectory.com
     </div>
   </footer>
 </body>

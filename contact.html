@@ -3,67 +3,125 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Contact, Falconry Directory USA</title>
-  <meta name="description" content="Contact the directory team. Report listings, request edits, ask about paid placement." />
-  <link rel="canonical" href="https://example.com/contact.html" />
-  <link rel="stylesheet" href="/assets/css/styles.css" />
-  <script defer src="/assets/js/app.js"></script>
+  <title>Contact | Falconry Directory USA</title>
+  <meta name="description" content="Contact Falconry Directory USA. Report listings, request edits, ask about paid placement, or send a general inquiry." />
+  <link rel="canonical" href="https://falconrydirectory.com/contact.html" />
+  <link rel="icon" href="assets/img/transparent-logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="assets/js/app.js"></script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
     <div class="container header-row">
-      <a class="brand" href="/" aria-label="Falconry Directory USA Home">
-        <span class="brand-mark" aria-hidden="true">FD</span>
+      <a class="brand" href="./" aria-label="Falconry Directory USA Home">
+        <img class="brand-logo" src="assets/img/transparent-logo.svg" alt="" width="48" height="48" />
         <span class="brand-text">Falconry Directory USA</span>
       </a>
-      <nav class="nav">
-        <a href="/directory.html">Directory</a>
-        <a href="/submit.html">Add Listing</a>
-        <a href="/blog.html">Guides</a>
-        <a href="/about.html">About</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+      <nav class="nav" id="navMenu">
+        <a href="directory.html">Directory</a>
+        <a href="submit.html">Add Listing</a>
+        <a href="blog.html">Guides</a>
+        <a href="about.html">About</a>
       </nav>
     </div>
   </header>
 
-  <main class="section">
+  <main id="main" class="section">
     <div class="container narrow">
-      <h1>Contact</h1>
-      <p class="lede">Send a request. Reports receive priority.</p>
+      <h1>Contact Us</h1>
+      <p class="lede">Send a request. Report submissions receive priority review.</p>
 
-      <form class="form card" action="#" method="post">
+      <form class="form card" id="contactForm" novalidate>
         <label class="field">
           <span class="label">Reason</span>
-          <select name="reason">
-            <option value="general">General</option>
-            <option value="report">Report listing</option>
-            <option value="edit">Request edit</option>
-            <option value="billing">Billing</option>
+          <select name="reason" id="contactReason">
+            <option value="general">General inquiry</option>
+            <option value="report">Report a listing</option>
+            <option value="edit">Request an edit</option>
+            <option value="claim">Claim a listing</option>
+            <option value="billing">Billing / paid placement</option>
           </select>
         </label>
 
         <label class="field">
-          <span class="label">Email</span>
-          <input name="email" type="email" required />
+          <span class="label">Your Name</span>
+          <input name="name" required placeholder="Full name" />
         </label>
 
         <label class="field">
-          <span class="label">Message</span>
-          <textarea name="message" rows="6" required></textarea>
+          <span class="label">Email *</span>
+          <input name="email" type="email" required placeholder="you@example.com" />
+        </label>
+
+        <label class="field">
+          <span class="label">Message *</span>
+          <textarea name="message" rows="6" required placeholder="Describe your request..."></textarea>
         </label>
 
         <div class="actions">
-          <button class="btn" type="submit">Send</button>
+          <button class="btn" type="submit">Send Message</button>
         </div>
 
-        <p class="fineprint">This form needs a backend endpoint later. Static hosting stores nothing.</p>
+        <p class="fineprint" id="contactStatus" role="status" style="margin-top:10px">This form copies your message to clipboard. Email integration coming soon.</p>
       </form>
     </div>
   </main>
 
   <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand footer-brand">
+          <img class="brand-logo" src="assets/img/transparent-logo.svg" alt="" width="48" height="48" />
+          <span class="brand-text">Falconry Directory USA</span>
+        </div>
+        <p class="footer-slogan">Everything falconry. One place.</p>
+      </div>
+      <div>
+        <div class="footer-title">Directory</div>
+        <a href="directory.html?type=service">Services</a>
+        <a href="directory.html?type=product">Products</a>
+        <a href="submit.html">Add Listing</a>
+      </div>
+      <div>
+        <div class="footer-title">Company</div>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="blog.html">Guides</a>
+      </div>
+      <div>
+        <div class="footer-title">Legal</div>
+        <a href="legal/terms.html">Terms</a>
+        <a href="legal/privacy.html">Privacy</a>
+        <a href="legal/disclaimer.html">Disclaimer</a>
+      </div>
+    </div>
     <div class="container footer-bottom">
-      <span class="fineprint">© <span id="year"></span> Falconry Directory USA</span>
+      &copy; <span id="year"></span> Falconry Directory USA &middot; falconrydirectory.com
     </div>
   </footer>
+
+  <script>
+  (function(){
+    var form = document.getElementById("contactForm");
+    var status = document.getElementById("contactStatus");
+    var reason = document.getElementById("contactReason");
+    var params = new URLSearchParams(window.location.search);
+    if (params.get("reason")) reason.value = params.get("reason");
+
+    form.addEventListener("submit", function(e){
+      e.preventDefault();
+      var fd = new FormData(form);
+      var msg = "Reason: " + fd.get("reason") + "\nName: " + fd.get("name") + "\nEmail: " + fd.get("email") + "\n\n" + fd.get("message");
+      navigator.clipboard.writeText(msg).then(function(){
+        status.textContent = "Message copied to clipboard. Paste and send via your preferred email client.";
+      }).catch(function(){
+        status.textContent = "Could not copy to clipboard. Please email us directly.";
+      });
+    });
+  })();
+  </script>
 </body>
 </html>

@@ -1,9 +1,16 @@
 {
   "name": "Falconry Directory USA",
   "short_name": "FalconryDir",
+  "description": "Everything falconry. One place.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0b1220",
-  "theme_color": "#69a7ff",
-  "icons": []
+  "background_color": "#FBFBF3",
+  "theme_color": "#0D1E2F",
+  "icons": [
+    {
+      "src": "assets/img/transparent-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
 }

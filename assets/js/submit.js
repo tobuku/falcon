@@ -1,34 +1,54 @@
 (async function () {
-  const form = document.getElementById("submitForm");
-  const status = document.getElementById("statusMsg");
-  const catSelect = document.getElementById("categorySelect");
-  const stateSelect = document.getElementById("stateSelect");
+  "use strict";
 
-  const [cats, states] = await Promise.all([
-    fetch("/data/categories.json").then(r => r.json()),
-    fetch("/data/states.json").then(r => r.json())
+  var form = document.getElementById("submitForm");
+  var status = document.getElementById("statusMsg");
+  var catSelect = document.getElementById("categorySelect");
+  var stateSelect = document.getElementById("stateSelect");
+
+  var data = await Promise.all([
+    fetch("data/categories.json").then(function (r) { return r.json(); }),
+    fetch("data/states.json").then(function (r) { return r.json(); })
   ]);
 
-  catSelect.innerHTML = `<option value="">Select</option>` + cats.map(c => `<option value="${c.slug}">${c.name}</option>`).join("");
-  stateSelect.innerHTML = `<option value="">Select</option>` + states.map(s => `<option value="${s.code}">${s.name}</option>`).join("");
+  var cats = data[0];
+  var states = data[1];
+
+  catSelect.innerHTML = '<option value="">Select category</option>' +
+    cats.map(function (c) { return '<option value="' + c.slug + '">' + c.name + '</option>'; }).join("");
+  stateSelect.innerHTML = '<option value="">Select state</option>' +
+    states.map(function (s) { return '<option value="' + s.code + '">' + s.name + '</option>'; }).join("");
 
   function requiredOk() {
-    const req = ["name", "type", "category", "state"];
-    for (const k of req) {
-      const el = form.querySelector(`[name="${k}"]`);
+    var req = ["name", "type", "category", "state"];
+    for (var i = 0; i < req.length; i++) {
+      var el = form.querySelector('[name="' + req[i] + '"]');
       if (!el || !String(el.value || "").trim()) return false;
     }
     return true;
   }
 
+  function generateId() {
+    return "fd-" + String(Date.now()).slice(-6) + String(Math.floor(Math.random() * 1000)).padStart(3, "0");
+  }
+
   function toPayload() {
-    const fd = new FormData(form);
-    const offerings = String(fd.get("offerings") || "")
+    var fd = new FormData(form);
+    var offerings = String(fd.get("offerings") || "")
       .split(",")
-      .map(s => s.trim())
+      .map(function (s) { return s.trim(); })
       .filter(Boolean);
 
+    var credentials = [];
+    var permit = String(fd.get("permitStatus") || "").trim();
+    var years = String(fd.get("years") || "").trim();
+    if (permit) credentials.push(permit);
+    if (years) credentials.push(years + " years in practice");
+
+    var now = new Date().toISOString().slice(0, 10);
+
     return {
+      id: generateId(),
       name: String(fd.get("name") || "").trim(),
       type: String(fd.get("type") || "").trim(),
       category: String(fd.get("category") || "").trim(),
@@ -40,28 +60,35 @@
       phone: String(fd.get("phone") || "").trim(),
       email: String(fd.get("email") || "").trim(),
       website: String(fd.get("website") || "").trim(),
-      permit_status: String(fd.get("permitStatus") || "").trim(),
-      years: String(fd.get("years") || "").trim(),
-      offerings,
+      price_model: "quote",
       plan: String(fd.get("plan") || "free").trim(),
-      created_at: new Date().toISOString().slice(0, 10)
+      credentials: credentials,
+      offerings: offerings,
+      created_at: now,
+      updated_at: now
     };
   }
 
   if (!form) return;
 
-  form.addEventListener("submit", (e) => {
+  form.addEventListener("submit", function (e) {
     e.preventDefault();
 
     if (!requiredOk()) {
-      status.textContent = "Missing required fields. Name, type, category, state.";
+      status.textContent = "Missing required fields: name, type, category, and state.";
+      status.style.color = "var(--danger)";
       return;
     }
 
-    const payload = toPayload();
-    const out = JSON.stringify(payload, null, 2);
+    var payload = toPayload();
+    var out = JSON.stringify(payload, null, 2);
 
-    status.textContent = "Saved to clipboard. Paste into your backend intake or a spreadsheet.";
-    navigator.clipboard.writeText(out).catch(() => {});
+    navigator.clipboard.writeText(out).then(function () {
+      status.textContent = "Listing data copied to clipboard. Paste into your backend intake or spreadsheet for review.";
+      status.style.color = "var(--success)";
+    }).catch(function () {
+      status.textContent = "Could not copy to clipboard. Check browser permissions.";
+      status.style.color = "var(--danger)";
+    });
   });
 })();

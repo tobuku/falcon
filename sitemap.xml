@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://example.com/</loc></url>
-  <url><loc>https://example.com/directory.html</loc></url>
-  <url><loc>https://example.com/submit.html</loc></url>
-  <url><loc>https://example.com/about.html</loc></url>
-  <url><loc>https://example.com/contact.html</loc></url>
-  <url><loc>https://example.com/blog.html</loc></url>
-  <url><loc>https://example.com/legal/terms.html</loc></url>
-  <url><loc>https://example.com/legal/privacy.html</loc></url>
-  <url><loc>https://example.com/legal/disclaimer.html</loc></url>
+  <url><loc>https://falconrydirectory.com/</loc><priority>1.0</priority></url>
+  <url><loc>https://falconrydirectory.com/directory.html</loc><priority>0.9</priority></url>
+  <url><loc>https://falconrydirectory.com/submit.html</loc><priority>0.7</priority></url>
+  <url><loc>https://falconrydirectory.com/about.html</loc><priority>0.6</priority></url>
+  <url><loc>https://falconrydirectory.com/contact.html</loc><priority>0.6</priority></url>
+  <url><loc>https://falconrydirectory.com/blog.html</loc><priority>0.7</priority></url>
+  <url><loc>https://falconrydirectory.com/legal/terms.html</loc><priority>0.3</priority></url>
+  <url><loc>https://falconrydirectory.com/legal/privacy.html</loc><priority>0.3</priority></url>
+  <url><loc>https://falconrydirectory.com/legal/disclaimer.html</loc><priority>0.3</priority></url>
+  <!-- Category + type combos for SEO -->
+  <url><loc>https://falconrydirectory.com/directory.html?cat=falconry-schools&amp;type=service</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/directory.html?cat=bird-abatement&amp;type=service</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/directory.html?cat=breeders&amp;type=service</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/directory.html?cat=raptor-veterinarians&amp;type=service</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/directory.html?cat=mentors-and-sponsors&amp;type=service</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/directory.html?cat=telemetry-and-trackers&amp;type=product</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/directory.html?cat=gloves-and-gauntlets&amp;type=product</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/directory.html?cat=hoods&amp;type=product</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/directory.html?cat=mews-builds&amp;type=product</loc><priority>0.7</priority></url>
+  <url><loc>https://falconrydirectory.com/directory.html?type=service</loc><priority>0.8</priority></url>
+  <url><loc>https://falconrydirectory.com/directory.html?type=product</loc><priority>0.8</priority></url>
 </urlset>

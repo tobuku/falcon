@@ -1,88 +1,113 @@
 (async function () {
-  const url = new URL(window.location.href);
-  const id = url.searchParams.get("id") || "";
+  "use strict";
 
-  const [cats, states, listings] = await Promise.all([
-    fetch("/data/categories.json").then(r => r.json()),
-    fetch("/data/states.json").then(r => r.json()),
-    fetch("/data/listings.sample.json").then(r => r.json())
+  var DOMAIN = "https://falconrydirectory.com";
+  var url = new URL(window.location.href);
+  var id = url.searchParams.get("id") || "";
+
+  var data = await Promise.all([
+    fetch("data/categories.json").then(function (r) { return r.json(); }),
+    fetch("data/states.json").then(function (r) { return r.json(); }),
+    fetch("data/listings.sample.json").then(function (r) { return r.json(); })
   ]);
 
-  const listing = listings.find(x => x.id === id) || listings[0];
+  var cats = data[0];
+  var states = data[1];
+  var listings = data[2];
 
-  const catName = (slug) => (cats.find(c => c.slug === slug) || {}).name || slug;
-  const stateName = (code) => (states.find(s => s.code === code) || {}).name || code;
+  var listing = listings.find(function (x) { return x.id === id; }) || listings[0];
 
-  const el = (x) => document.getElementById(x);
+  function catName(slug) {
+    var c = cats.find(function (c) { return c.slug === slug; });
+    return c ? c.name : slug;
+  }
+  function stateName(code) {
+    var s = states.find(function (s) { return s.code === code; });
+    return s ? s.name : code;
+  }
+  function el(x) { return document.getElementById(x); }
 
+  // Populate fields
   el("name").textContent = listing.name;
   el("tagline").textContent = listing.tagline || "";
-
-  el("type").textContent = listing.type;
+  el("type").textContent = listing.type.charAt(0).toUpperCase() + listing.type.slice(1);
   el("category").textContent = catName(listing.category);
   el("state").textContent = stateName(listing.state);
   el("city").textContent = listing.city || "Online";
   el("serviceArea").textContent = listing.service_area || "Not provided";
   el("priceModel").textContent = listing.price_model || "Not provided";
 
-  const badges = el("badges");
+  // Badges
+  var badges = el("badges");
   badges.innerHTML = "";
-  const b = document.createElement("span");
-  b.className = `badge ${listing.plan}`;
+  var b = document.createElement("span");
+  b.className = "badge " + listing.plan;
   b.textContent = listing.plan.toUpperCase();
   badges.appendChild(b);
 
-  const creds = el("credentials");
+  // Credentials
+  var creds = el("credentials");
   creds.innerHTML = "";
-  for (const c of (listing.credentials || [])) {
-    const li = document.createElement("li");
-    li.textContent = c;
-    creds.appendChild(li);
-  }
-  if (!(listing.credentials || []).length) {
-    const li = document.createElement("li");
-    li.textContent = "No credentials provided";
-    creds.appendChild(li);
+  var credList = listing.credentials || [];
+  if (credList.length) {
+    for (var i = 0; i < credList.length; i++) {
+      var li = document.createElement("li");
+      li.textContent = credList[i];
+      creds.appendChild(li);
+    }
+  } else {
+    var li2 = document.createElement("li");
+    li2.textContent = "No credentials provided";
+    creds.appendChild(li2);
   }
 
-  const off = el("offerings");
+  // Offerings
+  var off = el("offerings");
   off.innerHTML = "";
-  for (const o of (listing.offerings || [])) {
-    const li = document.createElement("li");
-    li.textContent = o;
-    off.appendChild(li);
+  var offerings = listing.offerings || [];
+  for (var j = 0; j < offerings.length; j++) {
+    var chip = document.createElement("li");
+    chip.textContent = offerings[j];
+    off.appendChild(chip);
   }
 
-  const phone = listing.phone || "";
-  const email = listing.email || "";
-  const site = listing.website || "";
-  const address = listing.address || "";
+  // Contact info
+  var phone = listing.phone || "";
+  var email = listing.email || "";
+  var site = listing.website || "";
+  var address = listing.address || "";
 
   el("phone").textContent = phone || "Not provided";
   el("email").textContent = email || "Not provided";
   el("address").textContent = address || "Not provided";
 
-  const phoneBtn = el("phoneBtn");
-  phoneBtn.href = phone ? `tel:${phone}` : "#";
+  // Phone button
+  var phoneBtn = el("phoneBtn");
+  phoneBtn.href = phone ? "tel:" + phone : "#";
   phoneBtn.setAttribute("aria-disabled", phone ? "false" : "true");
   if (!phone) phoneBtn.classList.add("btn-ghost");
 
-  const siteBtn = el("siteBtn");
+  // Website button
+  var siteBtn = el("siteBtn");
   siteBtn.href = site || "#";
   siteBtn.style.display = site ? "inline-flex" : "none";
 
-  const mapBtn = el("mapBtn");
-  const mapQ = encodeURIComponent([address, listing.city, listing.state].filter(Boolean).join(", "));
-  mapBtn.href = mapQ ? `https://www.google.com/maps/search/?api=1&query=${mapQ}` : "#";
+  // Map button
+  var mapBtn = el("mapBtn");
+  var mapQ = encodeURIComponent([address, listing.city, listing.state].filter(Boolean).join(", "));
+  mapBtn.href = mapQ ? "https://www.google.com/maps/search/?api=1&query=" + mapQ : "#";
 
-  const backRow = el("backRow");
-  backRow.innerHTML = `<a class="text-link" href="/directory.html">← Back to results</a>`;
+  // Back link
+  var backRow = el("backRow");
+  backRow.innerHTML = '<a class="text-link" href="directory.html">&larr; Back to directory</a>';
 
-  const schema = {
+  // JSON-LD Schema
+  var schema = {
     "@context": "https://schema.org",
     "@type": listing.type === "product" ? "Store" : "LocalBusiness",
     "name": listing.name,
-    "url": site || `https://example.com/listing.html?id=${encodeURIComponent(listing.id)}`,
+    "description": listing.tagline || "",
+    "url": site || DOMAIN + "/listing.html?id=" + encodeURIComponent(listing.id),
     "telephone": phone || undefined,
     "email": email || undefined,
     "address": address ? {
@@ -93,22 +118,26 @@
       "addressCountry": "US"
     } : undefined,
     "areaServed": listing.service_area || undefined,
-    "keywords": (listing.offerings || []).join(", ")
+    "keywords": offerings.join(", ")
   };
 
-  const schemaClean = JSON.parse(JSON.stringify(schema));
-  const schemaBox = el("schemaBox");
-  schemaBox.textContent = JSON.stringify(schemaClean, null, 2);
+  var schemaClean = JSON.parse(JSON.stringify(schema));
 
-  const ld = document.createElement("script");
+  // Display schema preview
+  var schemaBox = el("schemaBox");
+  if (schemaBox) schemaBox.textContent = JSON.stringify(schemaClean, null, 2);
+
+  // Inject JSON-LD
+  var ld = document.createElement("script");
   ld.type = "application/ld+json";
   ld.textContent = JSON.stringify(schemaClean);
   document.head.appendChild(ld);
 
-  const title = `${listing.name} , ${catName(listing.category)} , ${stateName(listing.state)}`;
-  const desc = `${listing.name}. ${catName(listing.category)} in ${stateName(listing.state)}. Contact info and offerings.`;
+  // SEO updates
+  var title = listing.name + " — " + catName(listing.category) + " in " + stateName(listing.state) + " | Falconry Directory USA";
+  var desc = listing.name + ". " + catName(listing.category) + " in " + stateName(listing.state) + ". Contact info, credentials, and offerings.";
 
   window.FD.seo.setTitle(title);
   window.FD.seo.setMetaDescription(desc);
-  window.FD.seo.setCanonical(`https://example.com${url.pathname}${url.search}`);
+  window.FD.seo.setCanonical(DOMAIN + "/listing.html?id=" + encodeURIComponent(listing.id));
 })();
