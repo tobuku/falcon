@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Directory, Falconry services and products by state and category</title>
+  <meta name="description" content="Browse falconry services and products. Filter by state, category, type, and price. View listing details and contact info." />
+  <link rel="canonical" href="https://example.com/directory.html" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <script defer src="/assets/js/app.js"></script>
+  <script defer src="/assets/js/directory.js"></script>
+  <script defer src="/assets/js/seo.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="/" aria-label="Falconry Directory USA Home">
+        <span class="brand-mark" aria-hidden="true">FD</span>
+        <span class="brand-text">Falconry Directory USA</span>
+      </a>
+      <nav class="nav">
+        <a href="/directory.html" aria-current="page">Directory</a>
+        <a href="/submit.html">Add Listing</a>
+        <a href="/blog.html">Guides</a>
+        <a href="/about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="page-head">
+        <h1>Directory</h1>
+        <p class="lede">Search services and products. Filter by state and category.</p>
+      </div>
+
+      <form id="filters" class="filters" autocomplete="off">
+        <label class="field">
+          <span class="label">Search</span>
+          <input name="q" id="q" type="search" placeholder="Try glove, telemetry, school, abatement" />
+        </label>
+
+        <label class="field">
+          <span class="label">State</span>
+          <select name="state" id="state"></select>
+        </label>
+
+        <label class="field">
+          <span class="label">Category</span>
+          <select name="cat" id="cat"></select>
+        </label>
+
+        <label class="field">
+          <span class="label">Type</span>
+          <select name="type" id="type">
+            <option value="">All</option>
+            <option value="service">Service</option>
+            <option value="product">Product</option>
+            <option value="organization">Organization</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span class="label">Price</span>
+          <select name="price" id="price">
+            <option value="">All</option>
+            <option value="free">Free</option>
+            <option value="paid">Paid</option>
+            <option value="subscription">Subscription</option>
+            <option value="quote">Quote</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span class="label">Sort</span>
+          <select name="sort" id="sort">
+            <option value="relevance">Relevance</option>
+            <option value="verified">Verified first</option>
+            <option value="newest">Newest</option>
+            <option value="az">Name A to Z</option>
+          </select>
+        </label>
+
+        <div class="filter-actions">
+          <button class="btn btn-small" type="submit">Apply</button>
+          <a class="btn btn-small btn-ghost" id="clearBtn" href="/directory.html">Clear</a>
+        </div>
+      </form>
+
+      <div class="results-meta">
+        <div id="count" class="fineprint"></div>
+        <div id="crumbs" class="crumbs"></div>
+      </div>
+
+      <div id="results" class="results-grid" aria-live="polite"></div>
+
+      <nav class="pager" aria-label="Pagination">
+        <button class="btn btn-small btn-ghost" id="prev">Prev</button>
+        <span class="fineprint" id="pageMeta"></span>
+        <button class="btn btn-small btn-ghost" id="next">Next</button>
+      </nav>
+
+      <section class="section alt">
+        <div class="container">
+          <h2>Index targets for SEO</h2>
+          <ul class="bullets" id="indexTargets"></ul>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand footer-brand">
+          <span class="brand-mark" aria-hidden="true">FD</span>
+          <span class="brand-text">Falconry Directory USA</span>
+        </div>
+        <p class="fineprint">Data changes over time. Verify permits with the state agency.</p>
+      </div>
+      <div>
+        <div class="footer-title">Legal</div>
+        <a href="/legal/terms.html">Terms</a>
+        <a href="/legal/privacy.html">Privacy</a>
+        <a href="/legal/disclaimer.html">Disclaimer</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span class="fineprint">© <span id="year"></span> Falconry Directory USA</span>
+    </div>
+  </footer>
+</body>
+</html>
