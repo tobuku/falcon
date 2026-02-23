@@ -1,0 +1,19 @@
+[
+  { "slug": "falconry-schools", "name": "Falconry schools and instructors", "group": "Services" },
+  { "slug": "mentors-and-sponsors", "name": "Mentors and sponsors", "group": "Services" },
+  { "slug": "bird-abatement", "name": "Pest bird abatement", "group": "Services" },
+  { "slug": "breeders", "name": "Breeders", "group": "Services" },
+  { "slug": "raptor-veterinarians", "name": "Raptor veterinarians", "group": "Services" },
+  { "slug": "rehabilitators", "name": "Wildlife rehabilitators", "group": "Services" },
+  { "slug": "events-and-demos", "name": "Events and demonstrations", "group": "Services" },
+
+  { "slug": "gloves-and-gauntlets", "name": "Gloves and gauntlets", "group": "Products" },
+  { "slug": "hoods", "name": "Hoods", "group": "Products" },
+  { "slug": "jesses-leashes-swivels", "name": "Jesses, leashes, swivels", "group": "Products" },
+  { "slug": "anklets-and-bewits", "name": "Anklets and bewits", "group": "Products" },
+  { "slug": "perches-blocks", "name": "Perches and blocks", "group": "Products" },
+  { "slug": "mews-builds", "name": "Mews materials and builds", "group": "Products" },
+  { "slug": "telemetry-and-trackers", "name": "Telemetry and trackers", "group": "Products" },
+  { "slug": "lures-and-creances", "name": "Lures and creances", "group": "Products" },
+  { "slug": "scales-and-health-tools", "name": "Scales and health tools", "group": "Products" }
+]
