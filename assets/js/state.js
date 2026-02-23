@@ -14,7 +14,7 @@
   var data = await Promise.all([
     fetch("data/state-content.json").then(function (r) { return r.json(); }),
     fetch("data/categories.json").then(function (r) { return r.json(); }),
-    fetch("data/listings.sample.json").then(function (r) { return r.json(); }),
+    fetch("data/listings.json").then(function (r) { return r.json(); }),
     fetch("data/states.json").then(function (r) { return r.json(); })
   ]);
 
