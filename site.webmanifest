@@ -1,0 +1,9 @@
+{
+  "name": "Falconry Directory USA",
+  "short_name": "FalconryDir",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1220",
+  "theme_color": "#69a7ff",
+  "icons": []
+}
