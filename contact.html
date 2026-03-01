@@ -65,7 +65,7 @@
           <button class="btn" type="submit">Send Message</button>
         </div>
 
-        <p class="fineprint" id="contactStatus" role="status" style="margin-top:10px">This form copies your message to clipboard. Email integration coming soon.</p>
+        <p class="fineprint" id="contactStatus" role="status" style="margin-top:10px"></p>
       </form>
     </div>
   </main>
@@ -114,11 +114,35 @@
     form.addEventListener("submit", function(e){
       e.preventDefault();
       var fd = new FormData(form);
-      var msg = "Reason: " + fd.get("reason") + "\nName: " + fd.get("name") + "\nEmail: " + fd.get("email") + "\n\n" + fd.get("message");
-      navigator.clipboard.writeText(msg).then(function(){
-        status.textContent = "Message copied to clipboard. Paste and send via your preferred email client.";
+      var btn = form.querySelector('button[type="submit"]');
+      btn.disabled = true;
+      btn.textContent = "Sending...";
+      status.textContent = "";
+
+      fetch("https://formspree.io/f/xjgedyzo", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "Accept": "application/json" },
+        body: JSON.stringify({
+          _subject: "FalconryDirectory Contact: " + fd.get("reason"),
+          reason: fd.get("reason"),
+          name: fd.get("name"),
+          email: fd.get("email"),
+          message: fd.get("message")
+        })
+      }).then(function(res){
+        if (res.ok) {
+          status.textContent = "Message sent! We'll get back to you soon.";
+          status.style.color = "var(--success)";
+          form.reset();
+        } else {
+          throw new Error("Server error");
+        }
       }).catch(function(){
-        status.textContent = "Could not copy to clipboard. Please email us directly.";
+        status.textContent = "Something went wrong. Please try again.";
+        status.style.color = "var(--danger)";
+      }).finally(function(){
+        btn.disabled = false;
+        btn.textContent = "Send Message";
       });
     });
   })();

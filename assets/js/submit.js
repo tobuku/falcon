@@ -81,14 +81,29 @@
     }
 
     var payload = toPayload();
-    var out = JSON.stringify(payload, null, 2);
+    var btn = form.querySelector('button[type="submit"]');
+    btn.disabled = true;
+    btn.textContent = "Submitting...";
+    status.textContent = "";
 
-    navigator.clipboard.writeText(out).then(function () {
-      status.textContent = "Listing data copied to clipboard. Paste into your backend intake or spreadsheet for review.";
-      status.style.color = "var(--success)";
+    fetch("https://formspree.io/f/xjgedyzo", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "Accept": "application/json" },
+      body: JSON.stringify(payload)
+    }).then(function (res) {
+      if (res.ok) {
+        status.textContent = "Listing submitted! We'll review it and add it to the directory.";
+        status.style.color = "var(--success)";
+        form.reset();
+      } else {
+        throw new Error("Server error");
+      }
     }).catch(function () {
-      status.textContent = "Could not copy to clipboard. Check browser permissions.";
+      status.textContent = "Something went wrong. Please try again or contact us directly.";
       status.style.color = "var(--danger)";
+    }).finally(function () {
+      btn.disabled = false;
+      btn.textContent = "Submit Listing";
     });
   });
 })();
