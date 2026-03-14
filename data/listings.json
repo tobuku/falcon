@@ -15,9 +15,14 @@
     "price_model": "",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Raptor rehabilitation", "Educational programs", "Visitor center"],
+    "offerings": [
+      "Raptor rehabilitation",
+      "Educational programs",
+      "Visitor center"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "alaska-raptor-center-ak"
   },
   {
     "id": "facccc60-5a03-4343-b65b-780468d53604",
@@ -35,9 +40,13 @@
     "price_model": "quote",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Commercial bird abatement", "Pest bird control"],
+    "offerings": [
+      "Commercial bird abatement",
+      "Pest bird control"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "desert-kings-falconry-bird-control-az"
   },
   {
     "id": "5197a5a8-1b86-4df3-ad1a-898b16566da0",
@@ -55,9 +64,13 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry experiences", "Educational demonstrations"],
+    "offerings": [
+      "Falconry experiences",
+      "Educational demonstrations"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "sky-island-falconry-experience-az"
   },
   {
     "id": "166550e6-9a6c-4b39-ae9f-0ecbc78575b7",
@@ -75,9 +88,13 @@
     "price_model": "quote",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Bird abatement", "Pest control"],
+    "offerings": [
+      "Bird abatement",
+      "Pest control"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "my-falconry-abatement-llc-ar"
   },
   {
     "id": "c5a1171a-7ef0-4f36-a2a5-82a6d705db3b",
@@ -95,9 +112,14 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry lessons", "Hawk walks", "Private experiences"],
+    "offerings": [
+      "Falconry lessons",
+      "Hawk walks",
+      "Private experiences"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "west-coast-falconry-ca"
   },
   {
     "id": "29a0093d-2229-4e95-a2a3-8f6a074328ac",
@@ -115,9 +137,14 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Introductory lessons", "Hawk walks", "Private sessions"],
+    "offerings": [
+      "Introductory lessons",
+      "Hawk walks",
+      "Private sessions"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "sky-falconry-ca"
   },
   {
     "id": "0991731d-6e33-460a-b50d-043a2a1c8cf2",
@@ -135,9 +162,14 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry experiences", "Demonstrations", "Events"],
+    "offerings": [
+      "Falconry experiences",
+      "Demonstrations",
+      "Events"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "hawk-on-hand-falconry-ca"
   },
   {
     "id": "a9d99e43-52e6-47ec-b28d-0893817b3b33",
@@ -155,9 +187,13 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry experiences", "Private sessions"],
+    "offerings": [
+      "Falconry experiences",
+      "Private sessions"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "five-star-falconry-ca"
   },
   {
     "id": "ef9435c9-c2fa-487a-9980-ef870b027664",
@@ -175,9 +211,14 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry experiences", "Private lessons", "Group events"],
+    "offerings": [
+      "Falconry experiences",
+      "Private lessons",
+      "Group events"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "the-falconry-experience-va"
   },
   {
     "id": "ea96cb9b-d2cb-4fcd-b070-59fde9268426",
@@ -195,9 +236,13 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry experiences", "Island tours"],
+    "offerings": [
+      "Falconry experiences",
+      "Island tours"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "catalina-falconry-experience-ca"
   },
   {
     "id": "f0b3da3b-74ee-48f5-8ccf-18970298925f",
@@ -215,9 +260,13 @@
     "price_model": "",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry education", "Training"],
+    "offerings": [
+      "Falconry education",
+      "Training"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "sweethawk-falconry-ca"
   },
   {
     "id": "bacb3019-1017-4d43-b81f-6df42781b392",
@@ -235,9 +284,13 @@
     "price_model": "quote",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Bird abatement", "Falconry services"],
+    "offerings": [
+      "Bird abatement",
+      "Falconry services"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "wingmaster-falconry-inc-ca"
   },
   {
     "id": "63843874-c664-4e91-bf01-a4e170e66bbb",
@@ -255,9 +308,14 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry experiences", "Hawk walks", "Private events"],
+    "offerings": [
+      "Falconry experiences",
+      "Hawk walks",
+      "Private events"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "talon-and-flight-falconry-ca"
   },
   {
     "id": "c7d40899-7b9c-4404-8ae2-59fea1194b01",
@@ -275,9 +333,14 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Raptor encounters", "Falconry experiences", "Educational programs"],
+    "offerings": [
+      "Raptor encounters",
+      "Falconry experiences",
+      "Educational programs"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "total-raptor-experience-ca"
   },
   {
     "id": "ac68ec16-c504-403b-97a9-a83c67500c9f",
@@ -295,9 +358,13 @@
     "price_model": "quote",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Bird abatement", "Pest bird control"],
+    "offerings": [
+      "Bird abatement",
+      "Pest bird control"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "green-fields-falconry-llc-co"
   },
   {
     "id": "b6f616ec-9a31-474b-9f99-daf31bbe7006",
@@ -315,9 +382,13 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry experiences", "Hawk walks"],
+    "offerings": [
+      "Falconry experiences",
+      "Hawk walks"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "mile-high-falconry-experience-co"
   },
   {
     "id": "57a24f48-c904-474a-a361-2b3d8c1f11c0",
@@ -335,9 +406,14 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry experiences", "Raptor education", "Group events"],
+    "offerings": [
+      "Falconry experiences",
+      "Raptor education",
+      "Group events"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "wings-over-colorado-co"
   },
   {
     "id": "f3f70260-2b3f-4631-8b79-f93dd3fb26ff",
@@ -355,9 +431,13 @@
     "price_model": "",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Conservation education", "Visitor programs"],
+    "offerings": [
+      "Conservation education",
+      "Visitor programs"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "ripley-waterfowl-conservancy-ct"
   },
   {
     "id": "77ac8580-feac-420b-bdd4-de431a5cd859",
@@ -375,9 +455,14 @@
     "price_model": "",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Hawk watching", "Migration counts", "Public education"],
+    "offerings": [
+      "Hawk watching",
+      "Migration counts",
+      "Public education"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "cape-henlopen-hawk-watch-de"
   },
   {
     "id": "82f29687-c181-4440-8f73-585e0fe0a94f",
@@ -395,9 +480,13 @@
     "price_model": "quote",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Bird abatement", "Falconry services"],
+    "offerings": [
+      "Bird abatement",
+      "Falconry services"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "raptor-jawns-falconry-pa"
   },
   {
     "id": "4da761cd-aa13-4f29-b241-eff63cb558fb",
@@ -415,9 +504,14 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry courses", "Birds of prey education", "Apprentice training"],
+    "offerings": [
+      "Falconry courses",
+      "Birds of prey education",
+      "Apprentice training"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "international-falconry-academy-fl"
   },
   {
     "id": "c77df649-1ff0-4c5d-b19b-4f0031f4cb00",
@@ -435,9 +529,14 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry adventures", "Private experiences", "Group events"],
+    "offerings": [
+      "Falconry adventures",
+      "Private experiences",
+      "Group events"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "falconry-adventures-of-orlando-fl"
   },
   {
     "id": "e7f52a10-c119-4406-8991-ae8ca0faeb6a",
@@ -455,9 +554,14 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry gloves", "Handmade equipment", "Custom gear"],
+    "offerings": [
+      "Falconry gloves",
+      "Handmade equipment",
+      "Custom gear"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "boneyard-falconry-equipment-ga"
   },
   {
     "id": "38dbdcc5-8982-484b-8e7f-4daac5861fd3",
@@ -475,9 +579,14 @@
     "price_model": "",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry club", "Mentor matching", "Field meets"],
+    "offerings": [
+      "Falconry club",
+      "Mentor matching",
+      "Field meets"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "idaho-falconers-association-id"
   },
   {
     "id": "284f0c21-7d7a-423e-aadd-c8e1e29123f4",
@@ -495,9 +604,14 @@
     "price_model": "",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Museum", "Historical archives", "Educational programs"],
+    "offerings": [
+      "Museum",
+      "Historical archives",
+      "Educational programs"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "the-archives-of-falconry-id"
   },
   {
     "id": "4261b484-963a-41d6-8f94-4b33359415b8",
@@ -515,9 +629,15 @@
     "price_model": "",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Raptor conservation", "Visitor center", "Educational programs", "Breeding programs"],
+    "offerings": [
+      "Raptor conservation",
+      "Visitor center",
+      "Educational programs",
+      "Breeding programs"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "the-peregrine-fund-world-center-for-birds-of-prey-id"
   },
   {
     "id": "50b3e3ef-db12-4051-81a8-09d25793705e",
@@ -535,9 +655,13 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Educational programs", "Raptor demonstrations"],
+    "offerings": [
+      "Educational programs",
+      "Raptor demonstrations"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "birds-of-prey-falconry-program-il"
   },
   {
     "id": "d4691b0b-030a-43a6-b317-cd48a794c16e",
@@ -555,9 +679,14 @@
     "price_model": "",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Raptor rehabilitation", "Educational programs", "Public events"],
+    "offerings": [
+      "Raptor rehabilitation",
+      "Educational programs",
+      "Public events"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "indiana-raptor-center-in"
   },
   {
     "id": "48ee4a51-fa30-4ced-ac7a-c80d6c71db13",
@@ -575,9 +704,14 @@
     "price_model": "",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Raptor research", "Education", "Conservation"],
+    "offerings": [
+      "Raptor research",
+      "Education",
+      "Conservation"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "iowa-raptor-project-ia"
   },
   {
     "id": "ea6f150f-6aea-476b-8291-87a6fee1e928",
@@ -595,9 +729,13 @@
     "price_model": "quote",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Bird abatement", "Pest bird management"],
+    "offerings": [
+      "Bird abatement",
+      "Pest bird management"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "black-talon-falconry-az"
   },
   {
     "id": "c568dd50-88b1-42d9-8e4c-670d75fe94b3",
@@ -615,9 +753,14 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry lessons", "Hawk walks", "Private experiences"],
+    "offerings": [
+      "Falconry lessons",
+      "Hawk walks",
+      "Private experiences"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "wing-blade-falconry-tn"
   },
   {
     "id": "194c7113-871e-4008-a0d4-47815085a4fd",
@@ -635,9 +778,14 @@
     "price_model": "",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Raptor rehabilitation", "Rescue", "Education"],
+    "offerings": [
+      "Raptor rehabilitation",
+      "Rescue",
+      "Education"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "owl-moon-raptor-center-md"
   },
   {
     "id": "71445c4d-2fc9-4700-889c-8b5bed658de9",
@@ -655,9 +803,14 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry experiences", "Hawk walks", "Group events"],
+    "offerings": [
+      "Falconry experiences",
+      "Hawk walks",
+      "Group events"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "raptor-hill-falconry-va"
   },
   {
     "id": "dca1e347-922b-45f3-a17b-8320b9136424",
@@ -675,9 +828,13 @@
     "price_model": "quote",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Bird abatement", "Pest bird control"],
+    "offerings": [
+      "Bird abatement",
+      "Pest bird control"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "falcon-chase-services-ma"
   },
   {
     "id": "3a0d783e-30a9-46b7-84e1-4a6ca184378f",
@@ -695,9 +852,14 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry experiences", "Avian education", "Group events"],
+    "offerings": [
+      "Falconry experiences",
+      "Avian education",
+      "Group events"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "michigan-avian-experience-mi"
   },
   {
     "id": "54542202-eba5-495e-b28b-7c190f06b884",
@@ -715,9 +877,14 @@
     "price_model": "",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Nature education", "Raptor programs", "Visitor center"],
+    "offerings": [
+      "Nature education",
+      "Raptor programs",
+      "Visitor center"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "outdoor-discovery-center-mi"
   },
   {
     "id": "fed05953-8bbf-4cdf-a0ff-6a85c31c659f",
@@ -735,9 +902,14 @@
     "price_model": "quote",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Bird abatement", "Pest bird control", "Commercial services"],
+    "offerings": [
+      "Bird abatement",
+      "Pest bird control",
+      "Commercial services"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "scair-force-falconry-bird-abatement-llc-mi"
   },
   {
     "id": "1fe04dbb-3e53-48e2-bdfe-c0f412f13866",
@@ -755,9 +927,15 @@
     "price_model": "",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Raptor rehabilitation", "Research", "Education", "Veterinary care"],
+    "offerings": [
+      "Raptor rehabilitation",
+      "Research",
+      "Education",
+      "Veterinary care"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "gabbert-raptor-center-mn"
   },
   {
     "id": "0528a394-1da0-4890-a9a2-a34700995317",
@@ -775,9 +953,15 @@
     "price_model": "",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Bird rehabilitation", "Conservation", "Education", "Visitor center"],
+    "offerings": [
+      "Bird rehabilitation",
+      "Conservation",
+      "Education",
+      "Visitor center"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "world-bird-sanctuary-mo"
   },
   {
     "id": "4a10380b-371b-4a37-9fef-c3d77f97a21f",
@@ -795,9 +979,14 @@
     "price_model": "",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Raptor rehabilitation", "Conservation", "Education"],
+    "offerings": [
+      "Raptor rehabilitation",
+      "Conservation",
+      "Education"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "wild-skies-raptor-center-mt"
   },
   {
     "id": "d85f3897-b3d3-43a0-9344-9d003d3a8c8f",
@@ -815,9 +1004,14 @@
     "price_model": "",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Raptor rehabilitation", "Education", "Conservation"],
+    "offerings": [
+      "Raptor rehabilitation",
+      "Education",
+      "Conservation"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "montana-raptor-conservation-center-mt"
   },
   {
     "id": "511c993c-cc5e-48d0-9046-1a3a2feff096",
@@ -835,9 +1029,14 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Eagle experiences", "Raptor encounters", "Educational events"],
+    "offerings": [
+      "Eagle experiences",
+      "Raptor encounters",
+      "Educational events"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "montanas-eagle-experience-mt"
   },
   {
     "id": "30f4d2c7-c73e-4bc9-9d16-9fe3bd94e75b",
@@ -855,9 +1054,14 @@
     "price_model": "",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Raptor rehabilitation", "Conservation", "Education"],
+    "offerings": [
+      "Raptor rehabilitation",
+      "Conservation",
+      "Education"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "nebraska-raptor-center-ne"
   },
   {
     "id": "6ffd2a2e-83a6-4e49-a76e-c8f318cb4f90",
@@ -875,9 +1079,14 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry adventures", "Hawk walks", "Private experiences"],
+    "offerings": [
+      "Falconry adventures",
+      "Hawk walks",
+      "Private experiences"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "raptor-adventures-nv"
   },
   {
     "id": "5c0003ee-6ca4-4be8-9f4a-2c883cd56f1d",
@@ -895,9 +1104,13 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry experiences", "Hawk walks"],
+    "offerings": [
+      "Falconry experiences",
+      "Hawk walks"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "monadnock-falconry-nh"
   },
   {
     "id": "5bd9bcef-ea39-4e7a-9474-a8d40b585795",
@@ -915,9 +1128,14 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry classes", "Beginner lessons", "Apprentice training"],
+    "offerings": [
+      "Falconry classes",
+      "Beginner lessons",
+      "Apprentice training"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "new-hampshire-school-of-falconry-nh"
   },
   {
     "id": "1e7d68fd-b56b-437e-8827-1226cbb2d60a",
@@ -935,9 +1153,14 @@
     "price_model": "",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Raptor rehabilitation", "Education", "Visitor center"],
+    "offerings": [
+      "Raptor rehabilitation",
+      "Education",
+      "Visitor center"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "the-raptor-trust-nj"
   },
   {
     "id": "639fdd59-3e17-4dbe-bc8f-db79e86fe868",
@@ -955,9 +1178,13 @@
     "price_model": "quote",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Bird abatement", "Pest bird control"],
+    "offerings": [
+      "Bird abatement",
+      "Pest bird control"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "hawks-hounds-falconry-nj"
   },
   {
     "id": "a094f731-99a1-4bbd-826f-0dbf0f023e06",
@@ -975,9 +1202,14 @@
     "price_model": "",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Raptor conservation", "Research", "Education"],
+    "offerings": [
+      "Raptor conservation",
+      "Research",
+      "Education"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "hawks-aloft-inc-nm"
   },
   {
     "id": "87e85695-2d56-4c98-8df6-769096c78707",
@@ -995,9 +1227,14 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry excursions", "Hawk walks", "Private sessions"],
+    "offerings": [
+      "Falconry excursions",
+      "Hawk walks",
+      "Private sessions"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "falconry-excursions-ny"
   },
   {
     "id": "580eaacc-b667-4bb1-b542-a33546ca4c21",
@@ -1015,9 +1252,13 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry experiences", "Private sessions"],
+    "offerings": [
+      "Falconry experiences",
+      "Private sessions"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "ridgeback-falconry-ny"
   },
   {
     "id": "ae532962-9dc8-469b-9a9d-10890500ac44",
@@ -1035,9 +1276,14 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry lessons", "Beginner classes", "Hawk walks"],
+    "offerings": [
+      "Falconry lessons",
+      "Beginner classes",
+      "Hawk walks"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "ohio-school-of-falconry-oh"
   },
   {
     "id": "be40e54d-97ff-4a1b-9e78-84dda3a61f1f",
@@ -1055,9 +1301,15 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry school", "Hawk walks", "Private experiences", "Group events"],
+    "offerings": [
+      "Falconry school",
+      "Hawk walks",
+      "Private experiences",
+      "Group events"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "hawk-manor-falconry-nc"
   },
   {
     "id": "1c8c7691-72b2-46ec-a15e-edd0a5926cb8",
@@ -1075,9 +1327,14 @@
     "price_model": "",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry club", "Mentor matching", "Field meets"],
+    "offerings": [
+      "Falconry club",
+      "Mentor matching",
+      "Field meets"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "oregon-falconers-association-or"
   },
   {
     "id": "02afdfe1-b960-4757-b14d-62a94129389d",
@@ -1095,9 +1352,14 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Wildlife park", "Raptor exhibits", "Education"],
+    "offerings": [
+      "Wildlife park",
+      "Raptor exhibits",
+      "Education"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "zooamerica-pa"
   },
   {
     "id": "e3855748-98b1-486f-b37c-b85b7e9c84ee",
@@ -1115,9 +1377,14 @@
     "price_model": "",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Nature center", "Raptor programs", "Education"],
+    "offerings": [
+      "Nature center",
+      "Raptor programs",
+      "Education"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "audubon-society-of-rhode-island-ri"
   },
   {
     "id": "04f7512f-50ae-4e08-b032-8edf17f71db8",
@@ -1135,9 +1402,15 @@
     "price_model": "",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Raptor conservation", "Rehabilitation", "Education", "Flight demonstrations"],
+    "offerings": [
+      "Raptor conservation",
+      "Rehabilitation",
+      "Education",
+      "Flight demonstrations"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "the-avian-conservation-center-center-for-birds-of-prey-sc"
   },
   {
     "id": "1f67cc5c-7339-4a12-98ee-4c5075bff045",
@@ -1155,9 +1428,13 @@
     "price_model": "quote",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Bird abatement", "Pest control"],
+    "offerings": [
+      "Bird abatement",
+      "Pest control"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "rhp-falconry-and-investigations-sc"
   },
   {
     "id": "9f816a46-5bd7-4829-9058-9e54a9f0484f",
@@ -1175,9 +1452,14 @@
     "price_model": "",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Raptor rehabilitation", "Education", "Public programs"],
+    "offerings": [
+      "Raptor rehabilitation",
+      "Education",
+      "Public programs"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "black-hills-raptor-center-sd"
   },
   {
     "id": "82b45f9a-1c25-4b2a-a70d-918287014171",
@@ -1195,9 +1477,14 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry experiences", "Education", "Private sessions"],
+    "offerings": [
+      "Falconry experiences",
+      "Education",
+      "Private sessions"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "north-texas-falconry-tx"
   },
   {
     "id": "349dc4d1-5a97-4e9d-ad79-0d0cf9f330f3",
@@ -1215,9 +1502,13 @@
     "price_model": "quote",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Bird abatement", "Commercial pest control"],
+    "offerings": [
+      "Bird abatement",
+      "Commercial pest control"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "falconry-based-bird-abatement-ut"
   },
   {
     "id": "7d67dc80-98c5-4e24-b471-9e34541c9d19",
@@ -1235,9 +1526,14 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry lessons", "Hawk walks", "Private experiences"],
+    "offerings": [
+      "Falconry lessons",
+      "Hawk walks",
+      "Private experiences"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "new-england-falconry-vt"
   },
   {
     "id": "bd7ba1ca-9ffd-4a25-a68d-8f0f416d353d",
@@ -1255,9 +1551,14 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry classes", "Apprentice programs", "Hawk walks"],
+    "offerings": [
+      "Falconry classes",
+      "Apprentice programs",
+      "Hawk walks"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "northwest-school-of-falconry-wa"
   },
   {
     "id": "a885ad14-a0df-49c0-8e84-a1198f7aed78",
@@ -1275,9 +1576,14 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry gloves", "Equipment", "Supplies"],
+    "offerings": [
+      "Falconry gloves",
+      "Equipment",
+      "Supplies"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "northwoods-falconry-llc-wa"
   },
   {
     "id": "1828cef2-424f-4eba-b70e-a0b9c5094ec0",
@@ -1295,9 +1601,13 @@
     "price_model": "quote",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falcon breeding", "Falconry birds"],
+    "offerings": [
+      "Falcon breeding",
+      "Falconry birds"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "inka-falcon-wa"
   },
   {
     "id": "61a50db1-f3e1-4297-abd0-f231fb549f29",
@@ -1315,9 +1625,13 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Beginner falconry lessons", "Luxury resort experiences"],
+    "offerings": [
+      "Beginner falconry lessons",
+      "Luxury resort experiences"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "falconry-at-the-greenbrier-wv"
   },
   {
     "id": "e0dd5628-7b0d-4b4d-95f6-60d8448ec8f1",
@@ -1335,9 +1649,14 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry experiences", "Hawk walks", "Private sessions"],
+    "offerings": [
+      "Falconry experiences",
+      "Hawk walks",
+      "Private sessions"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "laurel-fork-falconry-wv"
   },
   {
     "id": "1ee6ace3-6235-4255-a9ca-3e92be4eb3dd",
@@ -1355,9 +1674,14 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry equipment", "Sporting goods", "Gloves"],
+    "offerings": [
+      "Falconry equipment",
+      "Sporting goods",
+      "Gloves"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "western-sporting-wy"
   },
   {
     "id": "a97abc43-54d6-44f1-a468-515be3f9d0a3",
@@ -1375,9 +1699,13 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Falconry equipment", "Supplies"],
+    "offerings": [
+      "Falconry equipment",
+      "Supplies"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "american-falconry-inc-wy"
   },
   {
     "id": "5c4409b8-bca9-404e-aaad-ebf62f15751f",
@@ -1395,9 +1723,15 @@
     "price_model": "fixed",
     "plan": "free",
     "credentials": [],
-    "offerings": ["Jesses", "Leashes", "Swivels", "Falconry supplies"],
+    "offerings": [
+      "Jesses",
+      "Leashes",
+      "Swivels",
+      "Falconry supplies"
+    ],
     "created_at": "2026-02-23",
-    "updated_at": "2026-02-23"
+    "updated_at": "2026-02-23",
+    "slug": "hawkeye-falconry-supply-wy"
   },
   {
     "id": "d6094ada-34c6-435f-abdf-36e637c6e119",
@@ -1423,6 +1757,7 @@
       "Offline-first with automatic sync when back in range"
     ],
     "created_at": "2026-03-14",
-    "updated_at": "2026-03-14"
+    "updated_at": "2026-03-14",
+    "slug": "falconrylab-nv"
   }
 ]

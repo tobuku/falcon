@@ -119,7 +119,7 @@
     h3.style.margin = "0";
     h3.style.fontSize = "1.1rem";
     var link = document.createElement("a");
-    link.href = "listing.html?id=" + encodeURIComponent(l.id);
+    link.href = "/listings/" + l.slug + "/";
     link.textContent = l.name;
     link.className = "text-link";
     h3.appendChild(link);
@@ -170,7 +170,7 @@
     actions.className = "card-actions";
     var view = document.createElement("a");
     view.className = "btn btn-small";
-    view.href = "listing.html?id=" + encodeURIComponent(l.id);
+    view.href = "/listings/" + l.slug + "/";
     view.textContent = "View Details";
     actions.appendChild(view);
     a.appendChild(actions);
