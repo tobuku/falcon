@@ -1398,5 +1398,31 @@
     "offerings": ["Jesses", "Leashes", "Swivels", "Falconry supplies"],
     "created_at": "2026-02-23",
     "updated_at": "2026-02-23"
+  },
+  {
+    "id": "d6094ada-34c6-435f-abdf-36e637c6e119",
+    "name": "FalconryLab",
+    "type": "product",
+    "category": "telemetry-and-trackers",
+    "tagline": "An app that handles weight tracking with predictive analytics, feeding calculations, hunt logs and more",
+    "state": "NV",
+    "city": "Las Vegas",
+    "address": "",
+    "service_area": "Global",
+    "phone": "",
+    "email": "robert@falconrylab.com",
+    "website": "https://falconrylab.com",
+    "price_model": "quote",
+    "plan": "free",
+    "credentials": [],
+    "offerings": [
+      "Weight tracking with predictive analytics",
+      "Feeding calculations based on real data",
+      "Training session documentation with automatic weather capture",
+      "Hunt journal with detailed outing records",
+      "Offline-first with automatic sync when back in range"
+    ],
+    "created_at": "2026-03-14",
+    "updated_at": "2026-03-14"
   }
 ]
