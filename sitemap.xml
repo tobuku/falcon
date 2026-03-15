@@ -8,10 +8,6 @@
   <url><loc>https://falconrydirectory.com/about.html</loc><priority>0.6</priority></url>
   <url><loc>https://falconrydirectory.com/contact.html</loc><priority>0.6</priority></url>
 
-  <!-- State & state-category templates -->
-  <url><loc>https://falconrydirectory.com/state.html</loc><priority>0.8</priority></url>
-  <url><loc>https://falconrydirectory.com/state-category.html</loc><priority>0.7</priority></url>
-
   <!-- Category landing pages — Services -->
   <url><loc>https://falconrydirectory.com/categories/falconry-schools.html</loc><priority>0.8</priority></url>
   <url><loc>https://falconrydirectory.com/categories/mentors-and-sponsors.html</loc><priority>0.8</priority></url>
