@@ -1759,5 +1759,31 @@
     "created_at": "2026-03-14",
     "updated_at": "2026-03-14",
     "slug": "falconrylab-nv"
+  },
+  {
+    "id": "fd-100660813",
+    "name": "My Falconry Abatement LLC",
+    "type": "service",
+    "category": "bird-abatement",
+    "tagline": "Falconry based bird abatement and aerial systems.",
+    "state": "AR",
+    "city": "Cherokee Village",
+    "address": "70 Cochise rd",
+    "service_area": "Nationwide",
+    "phone": "870847402",
+    "email": "myfalvonry@hmail.com",
+    "website": "",
+    "price_model": "quote",
+    "plan": "free",
+    "credentials": [
+      "Master Falconer",
+      "14 years in practice"
+    ],
+    "offerings": [
+      "Strictly pest bird management no public speaking or events."
+    ],
+    "created_at": "2026-04-25",
+    "updated_at": "2026-04-25",
+    "slug": "my-falconry-abatement-llc-ar-cherokee-village"
   }
 ]
