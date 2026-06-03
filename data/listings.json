@@ -1785,5 +1785,61 @@
     "created_at": "2026-04-25",
     "updated_at": "2026-04-25",
     "slug": "my-falconry-abatement-llc-ar-cherokee-village"
+  },
+  {
+    "id": "fd-122033874",
+    "name": "American Falconry Services",
+    "type": "service",
+    "category": "bird-abatement",
+    "tagline": "Professional bird abatement nation wide",
+    "state": "NY",
+    "city": "Victor",
+    "address": "407 Cline Rd",
+    "service_area": "Nationwide",
+    "phone": "315-690-6519",
+    "email": "apicketthale@gmail.com",
+    "website": "https://americanfalconryservices.com/",
+    "price_model": "quote",
+    "plan": "free",
+    "credentials": [
+      "Master falconer",
+      "Federal abatement permit",
+      "Over 15 years in practice"
+    ],
+    "offerings": [
+      "Abatement services for any location with bird problems"
+    ],
+    "created_at": "2026-06-02",
+    "updated_at": "2026-06-02",
+    "slug": "american-falconry-services-ny"
+  },
+  {
+    "id": "fd-058841610",
+    "name": "Kestris Falconry Equipment",
+    "type": "product",
+    "category": "jesses-leashes-swivels",
+    "tagline": "Custom braided gear for all sized birds",
+    "state": "NY",
+    "city": "",
+    "address": "",
+    "service_area": "Nationwide",
+    "phone": "603-724-3847",
+    "email": "kestrisfalconry1@gmail.com",
+    "website": "",
+    "price_model": "quote",
+    "plan": "free",
+    "credentials": [
+      "Master falconer",
+      "10 years in practice"
+    ],
+    "offerings": [
+      "Jesses",
+      "Full Sets",
+      "Convertible Jesses",
+      "Falconry gear"
+    ],
+    "created_at": "2026-06-02",
+    "updated_at": "2026-06-02",
+    "slug": "kestris-falconry-equipment-ny"
   }
 ]
