@@ -23,6 +23,8 @@
     .resource-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; margin: 24px 0 40px; }
     .resource-card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius-lg); overflow: hidden; display: flex; flex-direction: column; transition: transform .25s ease, box-shadow .25s ease; }
     .resource-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+    .resource-card-img { width: 100%; height: 200px; object-fit: cover; display: block; }
+    .resource-card-img.contain { object-fit: contain; background: #f5f3ef; padding: 12px; }
     .resource-card-header { background: var(--navy); padding: 24px 24px 20px; }
     .resource-card-tag { display: inline-block; background: rgba(196,162,101,.2); color: var(--gold); font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .8px; padding: 3px 10px; border-radius: 20px; margin-bottom: 10px; border: 1px solid rgba(196,162,101,.3); }
     .resource-card-header h3 { color: #fff; font-size: 1.15rem; font-weight: 700; line-height: 1.3; margin: 0; }
@@ -96,6 +98,7 @@
         <div class="resource-grid">
 
           <div class="resource-card">
+            <img class="resource-card-img contain" src="../assets/img/resources/teds-woodworking.png" alt="TedsWoodworking 16,000+ plan library bundle" loading="lazy" />
             <div class="resource-card-header">
               <span class="resource-card-tag">Top Pick</span>
               <h3>TedsWoodworking &mdash; 16,000+ Plans</h3>
@@ -144,6 +147,7 @@
           </div>
 
           <div class="resource-card">
+            <img class="resource-card-img" src="../assets/img/resources/the-lost-superfoods.jpg" alt="The Lost SuperFoods book cover" loading="lazy" />
             <div class="resource-card-header">
               <span class="resource-card-tag">Foraging &amp; Field</span>
               <h3>The Lost SuperFoods</h3>
@@ -171,6 +175,7 @@
         <div class="resource-grid">
 
           <div class="resource-card">
+            <img class="resource-card-img contain" src="../assets/img/resources/home-doctor.jpg" alt="Home Doctor practical medicine book" loading="lazy" />
             <div class="resource-card-header">
               <h3>Home Doctor &mdash; Practical Medicine</h3>
             </div>
@@ -190,6 +195,7 @@
           </div>
 
           <div class="resource-card">
+            <img class="resource-card-img contain" src="../assets/img/resources/lost-frontier-handbook.jpg" alt="The Lost Frontier Handbook book and tablet" loading="lazy" />
             <div class="resource-card-header">
               <h3>Lost Frontier Handbook</h3>
             </div>
@@ -216,6 +222,7 @@
         <div class="resource-grid">
 
           <div class="resource-card">
+            <img class="resource-card-img" src="../assets/img/resources/raven-crossbows.jpg" alt="Ravin R29X crossbow" loading="lazy" />
             <div class="resource-card-header">
               <span class="resource-card-tag">Partner</span>
               <h3>Ravin Crossbows</h3>
