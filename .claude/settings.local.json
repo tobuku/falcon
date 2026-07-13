@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import uuid; print\\(uuid.uuid4\\(\\)\\)\")",
+      "Bash(cd c:/Users/HDNG_HelpDesk/Documents/GitHub/falcon && python gsc_automation.py --report all --days 28 --limit 20)",
+      "Bash(cd c:/Users/HDNG_HelpDesk/Documents/GitHub/falcon && python build_listings.py)"
+    ]
+  }
+}

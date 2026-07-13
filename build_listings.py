@@ -93,7 +93,7 @@ def render_page(listing, cats, states):
     plan         = listing.get("plan") or "free"
     ltype        = listing.get("type") or "service"
 
-    title     = f"{name} — {cat_name} in {state_name} | Falconry Directory USA"
+    title     = f"{name} - {cat_name} in {state_name} | Falconry Directory USA"
     meta_desc = f"{name}. {tagline} {cat_name} in {state_name}. Falconry Directory USA.".strip()
     meta_desc = meta_desc[:160]
 
@@ -156,7 +156,7 @@ def render_page(listing, cats, states):
   <title>{esc(title)}</title>
   <meta name="description" content="{esc(meta_desc)}" />
   <link rel="canonical" href="{canonical}" />
-  <meta property="og:title" content="{esc(name)} — Falconry Directory USA" />
+  <meta property="og:title" content="{esc(name)} - Falconry Directory USA" />
   <meta property="og:description" content="{esc(meta_desc)}" />
   <meta property="og:type" content="website" />
   <link rel="icon" href="/assets/img/transparent-logo.svg" type="image/svg+xml" />
@@ -313,7 +313,7 @@ def update_sitemap(listings):
         f"{SITEMAP_MARKER}\n{entries}</urlset>",
     )
     path.write_text(new_content, encoding="utf-8")
-    print(f"  sitemap.xml   — {len(listings)} listing URLs added")
+    print(f"  sitemap.xml   -{len(listings)} listing URLs added")
 
 
 # ---------------------------------------------------------------------------
@@ -334,7 +334,7 @@ def main():
         json.dumps(listings, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
-    print(f"  listings.json — slug fields written ({len(listings)} listings)")
+    print(f"  listings.json -slug fields written ({len(listings)} listings)")
 
     # Rebuild /listings/ directory from scratch
     print("Generating listing pages...")
@@ -349,7 +349,7 @@ def main():
             render_page(listing, cats, states),
             encoding="utf-8",
         )
-    print(f"  listings/     — {len(listings)} pages generated")
+    print(f"  listings/     -{len(listings)} pages generated")
 
     print("Updating sitemap...")
     update_sitemap(listings)
